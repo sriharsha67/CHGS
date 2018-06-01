@@ -47,6 +47,8 @@ img{
 
 
 /*--/navigation --*/
+
+
 a.navbar-brand {
     font-size: 2.8em;
 }
@@ -67,7 +69,7 @@ li.nav-item {
     margin: 0 1em;
 }
 .agile-banner_nav {
-    width: 100%;
+    width: 100% !important;
 }
 .bg-light {
     background-color: transparent !important;
@@ -80,7 +82,7 @@ li.nav-item {
     font-weight: 600;
 	margin: 0;
 }
-span.display {
+/*span.display {
     font-size: 14px;
     display: block;
     font-weight: 600;
@@ -88,7 +90,7 @@ span.display {
     text-align: center;
     margin-top: -10px;
     letter-spacing: 3px;
-}
+}*/
 .navbar-light .navbar-nav .nav-link {
     color: #333;
     font-weight: 600;
@@ -626,6 +628,9 @@ a.w3_agile_dribble:hover{
 a.w3_agile_vimeo:hover{
 	background:#1ab7ea;
 	border-color:#1ab7ea;
+}
+.advisors_grid{
+    margin-bottom: 15px;
 }
 .w3_team_grid1 ul li {
     display: inline-block;
