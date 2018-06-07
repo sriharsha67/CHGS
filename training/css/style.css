@@ -368,11 +368,11 @@ h1,h2,h3,h4,h5,h6{
 }
 .slider-info h3 a {
     color: white;
-       font-size: 2em;
+    font-size: 3em;
     text-transform: uppercase;
     font-family: 'samarkan', 'Lato', sans-serif;
     font-weight: 900;
-	margin-bottom:0.3em;
+	  margin-bottom:0.3em;
     letter-spacing: 2px;
     display: inline-block;
 }

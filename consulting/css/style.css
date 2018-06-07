@@ -4,6 +4,12 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+@font-face {
+  font-family: 'samarkan';
+  src: url('../fonts/samarkan.TTF'); /* IE9 Compat Modes */
+}
+
 /*--header--*/
 h1,h2,h3,h4,h5,h6{
   font-family: 'Lato', sans-serif;
@@ -362,11 +368,11 @@ h1,h2,h3,h4,h5,h6{
 }
 .slider-info h3 a {
     color: white;
-       font-size: 2em;
+    font-size: 3em;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
+    font-family: 'samarkan', 'Lato', sans-serif;
     font-weight: 900;
-  margin-bottom:0.3em;
+    margin-bottom:0.3em;
     letter-spacing: 2px;
     display: inline-block;
 }

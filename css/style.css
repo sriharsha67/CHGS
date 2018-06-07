@@ -660,12 +660,20 @@ h3.heading {
 
 /*-- About page --*/
 
-.about-intro p{
+.about-intro{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.about-intro .intro{
     padding-top: 2em;
     font-family: 'Raleway', sans-serif;;
     font-size: 1.2em;
     text-align: justify;
-    color: #333; 
+    color: #333;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #1b1b1b;
 }
 
 .item h4 {
@@ -1980,3 +1988,8 @@ ul.rating li span.fas {
 }
 
 /*-- //Responsive Design --*/
+
+
+.dropdown-toggle::after{
+    display: none;
+}
