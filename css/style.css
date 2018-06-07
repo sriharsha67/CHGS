@@ -65,9 +65,9 @@ li.nav-item a {
 li.nav-item a:hover {
     color: #009688;
 }
-li.nav-item {
+/*li.nav-item {
     margin: 0 1em;
-}
+}*/
 .agile-banner_nav {
     width: 100% !important;
 }
@@ -1418,6 +1418,62 @@ ul.rating li span.fas {
 }
 /*-- //clients--*/
 
+/* Careers */
+
+.careers-intro .career-motive{
+    background-color: #919191;
+    min-width: 100%;
+}
+
+.careers-intro .career-motive .intro{
+    padding-top: 2em;
+    font-family: 'Raleway', sans-serif;;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #333;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.careers-hiring{
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.careers-hiring h3.heading {
+    font-size: 45px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #1b1b1b;
+    margin-bottom: 0 !important;
+}
+
+.careers-hiring h4.heading {
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #009688;
+    margin-top:10px !important; 
+}
+
+.careers-hiring .hiring-process{
+    margin-bottom: 5em;
+}
+
+.careers-hiring .hiring-btns{
+    width: 43%;
+    margin: 0 auto;
+}
+
+.careers-hiring .hire-btn{
+    color: #fff;
+    background-color: #009688;
+    border: none;
+}
+
+
+/* Careers */
 
 /*-- Responsive Design --*/
 
