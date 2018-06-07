@@ -1354,14 +1354,14 @@ address p a:hover {
     background: #fff;
 }
 .collections a {
-    color: #fff;
+    color: #333;
     letter-spacing: 2px;
     text-decoration: underline;
 }
 
 .testimonials {
-    background: url(../images/test.jpg) no-repeat 0px 0px;
-    background-size: cover;
+    /*background: url(../images/test.jpg) no-repeat 0px 0px;*/
+    /*background-size: cover;*/
 }
 .clients label.line{
 	background:#fff;
@@ -1373,7 +1373,7 @@ address p a:hover {
 	font-size: 14px;
 }
 .collections h3 {
-    color: #fff;
+    color: #333;
     font-size: 50px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -1397,7 +1397,7 @@ ul.rating li span.fas {
 .collections p {
     font-size: 15px;
     letter-spacing: 1px;
-    color: #eee;
+    color: #333;
     line-height: 28px;
 }
 /*-- //clients--*/
