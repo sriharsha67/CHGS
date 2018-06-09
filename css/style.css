@@ -204,14 +204,14 @@ li.nav-item a:hover {
 	background-size: cover;
 }
 
-.carousel-item.item4 {
+/*.carousel-item.item4 {
 	background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/intro-carousel/1.jpg) no-repeat;
 	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/intro-carousel/1.jpg) no-repeat;
 	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/intro-carousel/1.jpg) no-repeat;
 	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/intro-carousel/1.jpg) no-repeat;
 	background-size: cover;
 }
-
+*/
 .carousel-caption h2,
 .carousel-caption h3 {
 	font-size: 4em;
@@ -661,8 +661,8 @@ h3.heading {
 /*-- About page --*/
 
 .about-intro{
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
 }
 
 .about-intro .intro{
@@ -829,6 +829,10 @@ ul.portfolio-area li figure {
 
 
 /*-- Contact page --*/
+.contact{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
 .contact_right input[type="text"], .contact_right input[type="email"], .contact_right textarea {
     outline: none;
     padding: 12px 0;
@@ -1381,6 +1385,15 @@ address p a:hover {
     text-decoration: underline;
 }
 
+.collections .client-logo-style{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.collections .client-logo{
+    width: 100px;
+    margin: 0 10px 0 10px;
+}
 .testimonials {
     /*background: url(../images/test.jpg) no-repeat 0px 0px;*/
     /*background-size: cover;*/
@@ -1426,8 +1439,13 @@ ul.rating li span.fas {
 
 /* Careers */
 
+.careers-intro{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
 .careers-intro .career-motive{
-        background: #919191 url(../images/motive.jpg) no-repeat;
+    background: #919191 url(../images/motive.jpg) no-repeat;
     background-size: contain;
     min-width: 100%;
     max-height: 450px;
