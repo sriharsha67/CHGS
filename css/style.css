@@ -1263,6 +1263,12 @@ footer h3{
 footer {
     background: #222;
 }
+footer address #phone-style{
+    margin-top: 10px;
+}
+footer address #address-details{
+    margin-bottom: 0 !important;
+}
 footer p {
     font-size: 15px;
     color: #999;
