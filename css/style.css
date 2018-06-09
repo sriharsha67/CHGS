@@ -1421,8 +1421,11 @@ ul.rating li span.fas {
 /* Careers */
 
 .careers-intro .career-motive{
-    background-color: #919191;
+        background: #919191 url(../images/motive.jpg) no-repeat;
+    background-size: contain;
     min-width: 100%;
+    max-height: 450px;
+    background-position: 85% 0%;
 }
 
 .careers-intro .career-motive .intro{
