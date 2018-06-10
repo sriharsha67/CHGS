@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 body{
 	padding:0;
 	margin:0;
@@ -1072,11 +1066,68 @@ ul.portfolio-area li figure {
 /*-- //odometer --*/
 
 
+/*-- Courses page --*/
+
+.course_holder
+{  
+min-height:200px;
+border-radius:7px;
+box-shadow:0 0 8px rgba(0,0,0,0.15);
+-webkit-box-shadow:0 0 8px rgba(0,0,0,0.15);
+
+}
+.course_holder > .btn
+{
+ margin:15px;   
+}
+.course_holder > h5
+{
+padding:10px 0 10px 10px;  
+font-size:.9em;
+font-weight:600;
+color:mediumvioletred;
+border-bottom:1px solid #ccc;
+}
+.course img
+{
+max-height:200px;    
+}
+.course_desc p
+{
+padding:5px;    
+font-size:.9em;
+}
+.course_row
+{
+margin-bottom:3em;
+}
+h4
+{
+padding:1.5em 0;    
+}
+
+.benefits > h2
+{
+    font-size:1.0em;
+}
+/*-- Courses page --*/
+
+/*-- Individual Course page --*/
+
+/*-- Individual Course page --*/
+
 /*-- services page --*/
 .inner-banner{
 	background: url(../images/banner1.jpg) no-repeat 0px 0px;
 	background-size: cover;
-	min-height: 200px;
+    background-attachment: fixed;
+	/*min-height: 200px;*/
+    margin-bottom:2em;
+}
+.inner-banner h4
+{
+padding:2em 0;
+color:white;
 }
 .serv_grid1 i.fas {
     font-size: 40px;
@@ -1258,6 +1309,10 @@ ul.portfolio-area li figure {
 /*-- //to-top --*/
 
 /*-- footer --*/
+footer
+{
+margin-top:2em;
+}
 footer h3{
     font-weight: 700;
     font-size: 20px;
