@@ -94,32 +94,34 @@
   
   <!-- inner page banner-->
   <div class="course-detail-banner">
-    <div class="container">
-      <h3 class="text-capitalize">Certified Big Data expert</h4>
+    <div class="container">      
 
       <div class="row">
-        <div class="col-md-4 offset-md-8 form-container">
-          <form>
+        <div class="col-md-5">
+        <h3 class="pull-left text-capitalize">Certified Big Data expert</h3>
+        </div>  
+        <div class="col-md-4 offset-md-3 form-container">
+          <form action="thankyou.php" method="post">
             <div class="form-row">
               <div class="col-md-6 mb-3">
                 <label for="validationDefault01" class="form-data">First name</label>
-                <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
+                <input type="text" name="firstname" class="form-control" id="validationDefault01" placeholder="First name" required>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="validationDefault02" class="form-data">Last name</label>
-                <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
+                <input type="text" name="lastname" class="form-control" id="validationDefault02" placeholder="Last name" required>
               </div>
             </div>
             <div class="form-row">
               <div class="col-md-12 mb-3">
                 <label for="validationDefault03" class="form-data">Email</label>
-                <input type="email" class="form-control" id="validationDefault03" placeholder="Email" required>
+                <input type="email" name="email" class="form-control" id="validationDefault03" placeholder="Email" required>
               </div>
             </div>
             <div class="form-row">
               <div class="col-md-12 mb-3">
                 <label for="validationDefault03" class="form-data">Mobile</label>
-                <input type="text" class="form-control" id="validationDefault03" placeholder="Mobile" pattern="[0-9]{10}" title="Please Enter Valid mobile Number" required>
+                <input type="text" name="mobile" class="form-control" id="validationDefault03" placeholder="Mobile" pattern="[0-9]{10}" title="Please Enter Valid mobile Number" required>
               </div>
             </div>
             <button class="btn btn-primary" type="submit">Submit</button>
