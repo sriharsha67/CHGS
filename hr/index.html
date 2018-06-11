@@ -1,9 +1,3 @@
-<!--
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,10 +13,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- css files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all"> -->
 <!-- //css files -->
 <!-- online-fonts -->
 <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Lato:400,400i,700,700i,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <!-- //online-fonts -->
 </head>
 <body>
@@ -38,7 +33,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="#">
-					<img src="../images/chslogo.png" alt="Logo">
+					<div class="logo-img">
+						<img src="../HR/images/logo.png" alt="Logo" class="img-responsive">
+					</div>
 				</a>
 			</div>
 
@@ -51,10 +48,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Training</a></li>
-							<li><a href="#">HR</a></li>
-							<li><a href="#">IT</a></li>
-							<li><a href="#">Consulting</a></li>
+							<li><a href="../training/index.html">Training</a></li>
+							<li><a href="../IT/index.html">IT</a></li>
+							<li><a href="../HR/index.html">HR</a></li>
+							<li><a href="../consulting/index.html">Consulting</a></li>
 						</ul>
 					</li>
 					<li><a href="#team" class="hvr-underline-from-center scroll">Trainers</a></li>
@@ -74,7 +71,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						
 							<div class="slider-info">
 								<p>Successful Career starts with good training</p>
-								<h3><a href="index.html"><span>Human </span>Resource</a></h3>
+								<h3><a href="index.html"><span>Kalpa</span>Vriksh</a></h3>
 								<h6>A Perfect Learning Center.</h6>
 							</div>
 						</li>
@@ -82,7 +79,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						
 							<div class="slider-info">
 								<p>Opportunities for Career Growth</p>
-								<h3><a href="index.html"><span>Human </span>Resource</a></h3>
+								<h3><a href="index.html"><span>Kalpa</span>Vriksh</a></h3>
 								<h6>A Perfect Learning Center.</h6>
 							</div>
 						</li>
@@ -90,7 +87,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						
 							<div class="slider-info">
 								<p>Learning Never Ends</p>
-								<h3><a href="index.html"><span>Human </span>Resource</a></h3>
+								<h3><a href="index.html"><span>Kalpa</span>Vriksh</a></h3>
 								<h6>A Perfect Learning Center</h6>
 							</div>
 						</li>
@@ -133,404 +130,53 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
-			<!-- <div class="buttons">
-				<div class="button">
-					<h5><a href="#contact" class="scroll" id="Contact">Contact with us</a></h5>
-				</div>
-				<div class="button2">
-					<h5><a href="#" data-toggle="modal" data-target="#myModal2">Admission Now</a></h5>
-				</div>
-			</div> -->
-			<!-- Modal1 -->
-			<!-- <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" >
-				<div class="modal-dialog" role="document"> -->
-				<!-- Modal content-->
-					<!-- <div class="modal-content abt-w3l">
-							<div class="modal-header">
-								<button type="button" class="close clo1" data-dismiss="modal">&times;</button>
-									<h4>Enter the Following Details</h4>
-									<form action="#" method="post" class="mod2">
-										<ul>
-											<li class="text">Name of Applicant :  </li>
-											<li class="agileits-main"><input name="name" type="text" required></li>
-										</ul>
-										<ul>
-											<li class="text">Date of Birth :  </li>
-											<li class="agileits-main"><input name="organization" type="text" required></li>
-										</ul>
-										<ul>
-											<li class="text">Father Name  :  </li>
-											<li class="agileits-main"><input name="name" type="text" required></li>
-										</ul>
-										<ul>
-											<li class="text">Gender  :  </li>
-											<li class="agileits-main"><input name="contact" type="text" required></li>
-										</ul>
-										<ul>
-											<li class="text">mobile no  :  </li>
-											<li class="agileits-main"><input name="mobile" type="text" required></li>
-										</ul>
-										<ul>
-											<li class="text">Address  :  </li>
-											<li class="agileits-main"><input name="mobile" type="text" required></li>
-										</ul>
-										<ul>
-											<li class="text">District  :  </li>
-											<li class="agileits-main"><input name="mobile" type="text" required></li>
-										</ul>
-										<ul>
-											<li class="text">State  :  </li>
-											<li class="agileits-main"><input name="mobile" type="text" required></li>
-										</ul>
-										<div class="clear"></div>
-										<div class="agile-submit">
-											<input type="submit" value="submit">
-										</div>
-									</form>
-
-							</div>
-						</div>
-					</div>
-				 </div> -->
-				<!-- //Modal1 -->
 				<div class="clearfix"></div>
 			</div>
 	</div>
-	<!-- <div class="about-info">
-		<img src="images/ab.jpg" alt="about-image">
-		<div class="right-agile">
-			<h5>Educational</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-			<h5>Educational</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam. </p>
-		</div>
-	</div> -->
 	<div class="clearfix"></div>
 <!--//about-->
 
 <!-- services -->
 <div class="services" id="courses">
-		<h3>Our <span style="color:#009688;">Services</span></h3>
-		<div class="row">
-			<div class="col-md-3 services-gd text-center" data-wow-delay=".5s">
-				<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-					<a href="#" class="hi-icon"><img src="images/book.png" alt=" " /></a>
-				</div>
-				<h4>Human Function Management</h4>
-				<!-- <p>Lorem Ipsum</p> -->
+		<h3>Our <span style="color:#009688;">Courses</span></h3>
+		<div class="col-md-2 services-gd text-center" data-wow-delay=".5s">
+			<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+				<a href="#" class="hi-icon"><img src="images/book.png" alt=" " /></a>
 			</div>
-			<div class="col-md-3 services-gd text-center" data-wow-delay=".5s">
-				<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-					<a href="#" class="hi-icon"><img src="images/edu.png" alt=" " /></a>
-				</div>
-				<h4>Payroll</h4>
-				<!-- <p>Lorem Ipsum</p> -->
-			</div>
-			<div class="col-md-3 services-gd text-center" data-wow-delay=".5s">
-				<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-					<a href="#" class="hi-icon"><img src="images/uni.png" alt=" " /></a>
-				</div>
-				<h4>Talent Acquisition</h4>
-				<!-- <p>Lorem Ipsum</p> -->
-			</div>
-			<div class="col-md-3 services-gd text-center" data-wow-delay=".5s">
-				<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-					<a href="#" class="hi-icon"><img src="images/hourglass.png" alt=" " /></a>
-				</div>
-				<h4>Employee Engagement</h4>
-				<!-- <p>Lorem Ipsum</p> -->
-			</div>
+			<h4>Course 1</h4>
+			<p>Lorem Ipsum</p>
 		</div>
-		<div class="row">
-			<div class="col-md-3 services-gd text-center" data-wow-delay=".5s">
-				<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-					<a href="#" class="hi-icon"><img src="images/book2.png" alt=" " /></a>
-				</div>
-				<h4>Performance Management System</h4>
-				<!-- <p>Lorem Ipsum</p> -->
+		<div class="col-md-2 services-gd text-center" data-wow-delay=".5s">
+			<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+				<a href="#" class="hi-icon"><img src="images/edu.png" alt=" " /></a>
 			</div>
-			<div class="col-md-3 services-gd text-center" data-wow-delay=".5s">
-				<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-					<a href="#" class="hi-icon"><img src="images/book2.png" alt=" " /></a>
-				</div>
-				<h4>HR Audit</h4>
-				<!-- <p>Lorem Ipsum</p> -->
-			</div>
-			<div class="col-md-3 services-gd text-center" data-wow-delay=".5s">
-				<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-					<a href="#" class="hi-icon"><img src="images/book2.png" alt=" " /></a>
-				</div>
-				<h4>Outplacement</h4>
-				<!-- <p>Lorem Ipsum</p> -->
-			</div>
-			<div class="col-md-3 services-gd text-center" data-wow-delay=".5s">
-				<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-					<a href="#" class="hi-icon"><img src="images/book2.png" alt=" " /></a>
-				</div>
-				<h4>HR Business Framework</h4>
-				<!-- <p>Lorem Ipsum</p> -->
-			</div>
+			<h4>Course 2</h4>
+			<p>Lorem Ipsum</p>
 		</div>
-		<div class="row">
-			<div class="col-md-3 services-gd text-center" data-wow-delay=".5s">
-				<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-					<a href="#" class="hi-icon"><img src="images/book2.png" alt=" " /></a>
-				</div>
-				<h4>Compensation Survey</h4>
-				<!-- <p>Lorem Ipsum</p> -->
+		<div class="col-md-2 services-gd text-center" data-wow-delay=".5s">
+			<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+				<a href="#" class="hi-icon"><img src="images/uni.png" alt=" " /></a>
 			</div>
+			<h4>Course 3</h4>
+			<p>Lorem Ipsum</p>
+		</div>
+		<div class="col-md-2 services-gd text-center" data-wow-delay=".5s">
+			<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+				<a href="#" class="hi-icon"><img src="images/hourglass.png" alt=" " /></a>
+			</div>
+			<h4>Course 4</h4>
+			<p>Lorem Ipsum</p>
+		</div>
+		<div class="col-md-2 services-gd text-center" data-wow-delay=".5s">
+			<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+				<a href="#" class="hi-icon"><img src="images/book2.png" alt=" " /></a>
+			</div>
+			<h4>Course 5</h4>
+			<p>Lorem Ipsum</p>
 		</div>
 		<div class="clearfix"> </div>
 </div>
 <!-- //services -->
-
-<!-- gallery -->
-<!-- <div class="portfolio" id="gallery">
-	<h3>Gallery</h3>
-		
-		<div class="portfolio-top wow fadeInDown animated" data-wow-delay=".5s">
-		 
-			<div class="col-md-4 grid slideanim">
-				<figure class="effect-jazz">
-				<a href="#portfolioModal1"  data-toggle="modal">
-
-					<img src="images/g1.jpg" alt="img25" class="img-responsive"/>
-						<figcaption>
-							<h4>Educational</h4>
-							<p> Education is not a problem. Education is an opportunity.</p>
-						</figcaption>
-					</a>						
-				</figure>
-			</div>
-			<div class="col-md-4 grid slideanim">
-				<figure class="effect-jazz">
-				<a href="#portfolioModal2"  data-toggle="modal">
-
-					<img src="images/g2.jpg" alt="img25" class="img-responsive"/>
-						<figcaption>
-							<h4>Educational</h4>
-							<p> Education is not a problem. Education is an opportunity.</p>							
-						</figcaption>	
-						</a>						
-				</figure>
-			</div>
-			<div class="col-md-4 grid slideanim">
-				<figure class="effect-jazz">
-				<a href="#portfolioModal3"  data-toggle="modal">
-
-					<img src="images/g3.jpg" alt="img25" class="img-responsive"/>
-						<figcaption>
-							<h4>Educational</h4>
-							<p> Education is not a problem. Education is an opportunity.</p>							
-						</figcaption>
-					</a>						
-				</figure>
-			</div>
-			
-			<div class="clearfix"></div>
-		 </div>
-		<div class="portfolio-top wow fadeInUp animated" data-wow-delay=".5s">
-			<div class="col-md-3 grid grid-wi slideanim">
-				<figure class="effect-jazz">
-				<a href="#portfolioModal4"  data-toggle="modal">
-
-					<img src="images/g4.jpg" alt="img25" class="img-responsive"/>
-						<figcaption>
-							<h4 class="effcet-text"> Educational</h4>
-							<p> Learning is never done without errors and defeat.</p>							
-						</figcaption>	
-					</a>						
-				</figure>
-			</div>
-			<div class="col-md-3 grid grid-wi slideanim">
-				<figure class="effect-jazz">
-				<a href="#portfolioModal5"  data-toggle="modal">
-
-					<img src="images/g5.jpg" alt="img25" class="img-responsive"/>
-						<figcaption>
-							<h4 class="effcet-text"> Educational</h4>
-							<p>Learning is never done without errors and defeat.</p>							
-						</figcaption>
-						</a>						
-				</figure>
-			</div>
-			<div class="col-md-3 grid grid-wi slideanim">
-				<figure class="effect-jazz">
-				<a href="#portfolioModal6"  data-toggle="modal">
-
-					<img src="images/g6.jpg" alt="img25" class="img-responsive"/>
-						<figcaption>
-							<h4 class="effcet-text">Educational</h4>
-							<p>Learning is never done without errors and defeat.</p>							
-						</figcaption>
-					</a>						
-				</figure>
-			</div>
-			<div class="col-md-3 grid grid-wi slideanim">
-				<figure class="effect-jazz">
-				<a href="#portfolioModal7"  data-toggle="modal">
-
-					<img src="images/g7.jpg" alt="img25" class="img-responsive"/>
-						<figcaption>
-							<h4 class="effcet-text"> Educational</h4>
-							<p> Learning is never done without errors and defeat.</p>							
-						</figcaption>
-					</a>						
-				</figure>
-			</div>
-			<div class="clearfix"></div>
-		 </div>
-	</div> -->
-<!-- Portfolio Modals -->
-<!-- <div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-		
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Educational</h3>
-						
-                        <img src="images/g1.jpg" class="img-responsive" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-           
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-         
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Educational</h3>
-                      
-                        <img src="images/g2.jpg" class="img-responsive" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-           
-        </div>
-    </div>
-    </div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-           
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Educational</h3>
-                     
-                        <img src="images/g3.jpg" class="img-responsive" alt="">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-            </div>
-       
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-			
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Educational</h3>
-                       
-                        <img src="images/g4.jpg" class="img-responsive" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-            
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Educational</h3>
-                       
-                        <img src="images/g5.jpg" class="img-responsive" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-           
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-           
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Educational</h3>
-                       
-                        <img src="images/g6.jpg" class="img-responsive" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-            </div>
-        
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Educational</h3>
-                     
-                        <img src="images/g7.jpg" class="img-responsive" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-         
-        </div>
-    </div>
-</div> -->
-<!-- /Portfolio Modals -->
-<!-- //gallery --> 
 
 <!-- team -->
 <div class="team" id="team">
@@ -595,116 +241,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	</div>
 </div>
 <!-- //team -->
-
-<!-- Events -->
-<!-- <div class="event" id="events">
-	<div class="container">
-		<h3>Events</h3>
-		<div class="col-md-4 eve-agile e1">
-			<div class="eve-sub1">
-				<a href="#" data-toggle="modal" data-target="#myModal5"><img src="images/e2.jpg" alt="image"></a>
-			<h4><a href="#" data-toggle="modal" data-target="#myModal5">Educational</a></h4>
-				<h6>By an <a href="#">admin</a>, Oct-2016</h6>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-			</div>
-			<div class="eve-sub2">
-				<div class="eve-w3lleft">
-					<h6><i class="fa fa-comment-o" aria-hidden="true"></i>17</h6>
-					<h6><i class="fa fa-heart-o" aria-hidden="true"></i>78</h6>
-				</div>	
-				<div class="eve-w3lright e1">
-					<a href="#" data-toggle="modal" data-target="#myModal5"><h5>More</h5></a>
-				</div>
-				<div class="clearfix"></div>	
-			</div>
-		</div>
-		<div class="col-md-4 eve-agile e2">
-			<div class="eve-sub1">
-				<a href="#" data-toggle="modal" data-target="#myModal6"><img src="images/e1.jpg" alt="image"></a>
-				<h4><a href="#" data-toggle="modal" data-target="#myModal6">Educational</a></h4>
-				<h6>By an <a href="#">admin</a>, Oct-2016</h6>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-			</div>
-			<div class="eve-sub2">
-				<div class="eve-w3lleft">
-					<h6><i class="fa fa-comment-o" aria-hidden="true"></i>64</h6>
-					<h6><i class="fa fa-heart-o" aria-hidden="true"></i>86</h6>
-				</div>	
-				<div class="eve-w3lright">
-					<a href="#" data-toggle="modal" data-target="#myModal6"><h5>More</h5></a>
-				</div>
-				<div class="clearfix"></div>	
-			</div>
-		</div>
-		<div class="col-md-4 eve-agile e3">
-			<div class="eve-sub1">
-				<a href="#" data-toggle="modal" data-target="#myModal7"><img src="images/e3.jpg" alt="image"></a>
-				<h4><a href="#" data-toggle="modal" data-target="#myModal7">Educational</a></h4>
-				<h6>By an <a href="#">admin</a>, Oct-2016</h6>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-			</div>
-			<div class="eve-sub2">
-				<div class="eve-w3lleft">
-					<h6><i class="fa fa-comment-o" aria-hidden="true"></i>47</h6>
-					<h6><i class="fa fa-heart-o" aria-hidden="true"></i>58</h6>
-				</div>	
-				<div class="eve-w3lright">
-					<a href="#" data-toggle="modal" data-target="#myModal7"><h5>More</h5></a>
-				</div>
-				<div class="clearfix"></div>	
-			</div>
-		</div>
-	</div>
-</div>
-
-						<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" >
-							<div class="modal-dialog"> -->
-							<!-- Modal content-->
-								<!-- <div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4>Educational</h4>
-											<img src="images/e2.jpg" alt="blog-image" />
-											<span>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem , eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.accusantium doloremque laudantium.</span>
-									</div>
-								</div>
-						
-							</div>
-				       </div> -->
-					   <!-- //Modal1 -->
-						<!-- <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" >
-							<div class="modal-dialog"> -->
-							<!-- Modal content-->
-								<!-- <div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4>Educational</h4>
-											<img src="images/e1.jpg" alt="blog-image" />
-											<span>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem , eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.accusantium doloremque laudantium.</span>
-									</div>
-								</div>
-						
-							</div>
-				       </div> -->
-
-					   <!-- //Modal1 -->
-						<!-- <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" >
-							<div class="modal-dialog"> -->
-							<!-- Modal content-->
-								<!-- <div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4>Educational</h4>
-											<img src="images/e3.jpg" alt="blog-image" />
-											<span>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem , eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.accusantium doloremque laudantium.</span>
-									</div>
-								</div>
-						
-							</div>
-				       </div> -->
-					   <!-- //Modal1 -->
-
-<!-- //Events -->
 
 <!--test-->
 	<div id="testimonials" class="review">
@@ -809,16 +345,23 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="col-md-4 agileinfo_footer_grid">
 				<h4>Address</h4>
 				<ul>
-					<li><span class="glyphicon glyphicon-home" aria-hidden="true"></span> 738 Diamond Road, New York City</li>
-					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">info@example.com</a></li>
-					<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> (0123) 0111 111 222</li>
+					<li>
+						<i class="fas fa-home"></i>
+							<address>
+								<p class="mb-3 address-details">Level 7, Maximus Towers</p>
+								<p class="mb-3 address-details">Building 2A,</p>
+								<p class="mb-3 address-details">Mindspace Complex,</p>
+								<p class="mb-3 address-details">Hitech City, Hyderabad 500081 India</p>
+							</address>
+						
+					</li>
+					<li><span aria-hidden="true"><i class="fas fa-envelope"></i></span><a href="mailto:shilpa.singh@chgs.in"> shilpa.singh@chgs.in</a></li>
+					<li><span aria-hidden="true"><i class="fas fa-phone"></i></span> +91 40-40339900</li>
+					<li><span><i class="fas fa-fax"></i></span> +91 40-40339898</li>
 				</ul>
 			</div>
 			
 			<div class="clearfix"> </div>
-			<div class="w3agile_footer_copy">
-				<p>© 2017 Educational. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts.</a></p>
-			</div>
 		</div>
 	</div>
 <!-- //footer -->

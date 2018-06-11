@@ -94,14 +94,25 @@ h1,h2,h3,h4,h5,h6{
    margin: 0 0.5em;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #000 !important;
+  color: #000 !important;
 	font-size: 1.25em;
-    position: relative;
+  position: relative;
 	font-weight: 500;
-	/*text-transform: uppercase;*/
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 2px;
   bottom: 25px;
+}
+
+.navbar-default .navbar-nav > li > ul > li > a {
+  color: #333 !important;
+  font-size: 1.05em;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  display: block;
+  padding: 8px 20px;
+  clear: both;
+  line-height: 1.42857143;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav li a.active {
     color:#009688 !important;
@@ -1501,6 +1512,9 @@ h4.text {
     font-size: 1em;
     line-height: 1.8em;
     color: #999;
+}
+.agileinfo_footer_grid .address-details{
+  margin-bottom: 0 !important;
 }
 .mid-w3l ul li{
 	float:left;

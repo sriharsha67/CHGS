@@ -1340,7 +1340,7 @@ footer {
 footer address #phone-style{
     margin-top: 10px;
 }
-footer address #address-details{
+footer address .address-details{
     margin-bottom: 0 !important;
 }
 footer p {
@@ -2156,14 +2156,11 @@ ul.rating li span.fas {
     display: none;
 }
 
-
 .course-detail-banner{
     background: url(../courses/data-science.png) no-repeat 0px 0px;
-    background-size: contain;
-    background-attachment: fixed;
+    background-size: 100% 100%;
     height: 400px;
     margin-bottom:2em;
-    background-position: 100% 60%;
 }
 .course_wrap h3
 {
@@ -2171,7 +2168,7 @@ ul.rating li span.fas {
     color: #333;
 }
 .course-detail-banner .form-container{
-    margin-top: 1.5em;
+    margin-top: 1.2em;
     border: none;
     z-index: 10000000;
     padding: 3em;
