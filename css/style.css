@@ -2170,6 +2170,7 @@ ul.rating li span.fas {
     color: white;
 }
 .course-detail-banner .form-container{
+    margin-top: 1.5em;
     border: none;
     z-index: 10000000;
     padding: 3em;
