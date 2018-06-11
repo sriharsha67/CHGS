@@ -369,6 +369,13 @@ h4.sub-tittle_w3ls {
 
 
 /*-- Process --*/
+
+.process{
+    margin: 0 !important;
+}
+.about{
+    margin: 0 !important;
+}
 .process span.fab {
     font-size: 50px;
     color: #009688;
@@ -1080,6 +1087,10 @@ box-shadow:0 0 8px rgba(0,0,0,0.15);
 {
  margin:15px;   
 }
+.course_holder > .btn > a
+{
+ color: #fff;   
+}
 .course_holder > h5
 {
 padding:10px 0 10px 10px;  
@@ -1118,16 +1129,20 @@ padding:1.5em 0;
 
 /*-- services page --*/
 .inner-banner{
-	background: url(../images/banner1.jpg) no-repeat 0px 0px;
+	background: url(../images/se2.jpg) no-repeat 0px 0px;
 	background-size: cover;
     background-attachment: fixed;
 	/*min-height: 200px;*/
     margin-bottom:2em;
 }
-.inner-banner h4
+.inner-banner h3
 {
-padding:2em 0;
-color:white;
+    padding:1.5em 0;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    /*color: #1b1b1b;*/
 }
 .serv_grid1 i.fas {
     font-size: 40px;
@@ -1309,10 +1324,10 @@ color:white;
 /*-- //to-top --*/
 
 /*-- footer --*/
-footer
+/*footer
 {
 margin-top:2em;
-}
+}*/
 footer h3{
     font-weight: 700;
     font-size: 20px;
@@ -1499,15 +1514,15 @@ ul.rating li span.fas {
     margin-bottom: 0 !important;
 }
 
-.careers-intro .career-motive{
+/*.careers-intro .career-motive{
     background: #919191 url(../images/motive.jpg) no-repeat;
     background-size: contain;
     min-width: 100%;
     max-height: 450px;
     background-position: 85% 0%;
-}
+}*/
 
-.careers-intro .career-motive .intro{
+.careers-intro .intro{
     padding-top: 2em;
     font-family: 'Raleway', sans-serif;;
     font-size: 1.2em;
@@ -1515,7 +1530,11 @@ ul.rating li span.fas {
     color: #333;
     font-weight: 200;
     letter-spacing: 2px;
-    color: #fff;
+}
+
+.careers-intro .careers-intro-img{
+    width: 540px;
+    height: 360px;
 }
 
 .careers-hiring{
@@ -1536,7 +1555,8 @@ ul.rating li span.fas {
     font-weight: 200;
     letter-spacing: 2px;
     color: #009688;
-    margin-top:10px !important; 
+    margin-top:10px !important;
+    padding: 0 !important;
 }
 
 .careers-hiring .hiring-process{
