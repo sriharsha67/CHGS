@@ -2158,16 +2158,17 @@ ul.rating li span.fas {
 
 
 .course-detail-banner{
-    background: url(../images/se2.jpg) no-repeat 0px 0px;
-    background-size: cover;
+    background: url(../courses/data-science.png) no-repeat 0px 0px;
+    background-size: contain;
     background-attachment: fixed;
     height: 400px;
     margin-bottom:2em;
+    background-position: 100% 60%;
 }
-.course-detail-banner h3
+.course_wrap h3
 {
-    padding:2em 0;
-    color: white;
+    padding:1em 0;
+    color: #333;
 }
 .course-detail-banner .form-container{
     margin-top: 1.5em;
