@@ -2135,3 +2135,27 @@ ul.rating li span.fas {
 .dropdown-toggle::after{
     display: none;
 }
+
+
+.course-detail-banner{
+    background: url(../images/se2.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    margin-bottom:2em;
+}
+.course-detail-banner h3
+{
+    padding:2em 0;
+    color: white;
+}
+.course-detail-banner .form-container{
+    border: none;
+    z-index: 10000000;
+    padding: 3em;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+.course-detail-banner .form-container .form-data{
+    color: #fff;
+}
