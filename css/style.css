@@ -2115,39 +2115,6 @@ ul.rating li span.fas {
 @media(max-width: 1440px){
 	
 }
-@media(max-width: 1440px){
-	
-}
-@media(max-width: 1440px){
-	
-}
-@media(max-width: 1440px){
-	
-}
-@media(max-width: 1440px){
-	
-}
-@media(max-width: 1440px){
-	
-}
-@media(max-width: 1440px){
-	
-}
-@media(max-width: 1440px){
-	
-}
-@media(max-width: 1440px){
-	
-}
-@media(max-width: 1440px){
-	
-}
-@media(max-width: 1440px){
-	
-}
-@media(max-width: 1440px){
-	
-}
 
 /*-- //Responsive Design --*/
 
@@ -2172,9 +2139,16 @@ ul.rating li span.fas {
     border: none;
     z-index: 10000000;
     padding: 3em;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.8);
     border-radius: 5px;
 }
 .course-detail-banner .form-container .form-data{
     color: #fff;
+}
+
+
+
+.big-data-banner
+{
+    background-image:url(../images/big-data-strp.jpg) !important; 
 }

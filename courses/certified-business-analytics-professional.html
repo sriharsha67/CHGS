@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Career Heights Global Systems</title>
+  
+  <!-- Meta tag Keywords -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="keywords" content="Career Corp Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+  Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+  <script type="application/x-javascript">
+    addEventListener("load", function () {
+      setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+      window.scrollTo(0, 1);
+    }
+  </script>
+  <!--// Meta tag Keywords -->
+
+  <link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="all" /><!-- for testimonials -->
+
+  <!-- css files -->
+  <link rel="stylesheet" href="../css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+  <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+  <link rel="stylesheet" href="../css/fontawesome-all.css"> <!-- Font-Awesome-Icons-CSS -->
+  <!-- //css files -->
+
+  <!-- web-fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <!-- //web-fonts -->
+  
+</head>
+
+<body>
+
+  <!--Header-->
+  <header>
+    <div class="container agile-banner_nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <!-- <a class="navbar-brand" href="index.html">Career Corp <span class="display">Digital technology</span></a> -->
+        <a class="navbar-brand" href="index.html">
+          <img src="../images/logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="../about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="../courses.html">Courses</a>
+            </li>
+            <li class="dropdown nav-item">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu agile_short_dropdown">
+                <li>
+                  <a href="training/index.html">Training</a>
+                </li>
+                <li>
+                  <a href="hr/index.html">HR</a>
+                </li>
+                <li>
+                  <a href="IT/index.html">IT</a>
+                </li>
+                <li>
+                  <a href="consulting/index.html">Consulting</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="../careers.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a href="../contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+  <!--Header-->
+  
+  <!-- inner page banner-->
+  <div class="course-detail-banner big-data-banner">
+
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 offset-md-8 form-container">
+          <form action="thankyou.php" method="post">
+
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault01" class="form-data">First name</label>
+                <input type="text" name="firstname" class="form-control" id="validationDefault01" placeholder="First name" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault02" class="form-data">Last name</label>
+                <input type="text" name="lastname" class="form-control" id="validationDefault02" placeholder="Last name" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault03" class="form-data">Email</label>
+                <input type="email" name="email" class="form-control" id="validationDefault03" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault03" class="form-data">Mobile</label>
+                <input type="text" name="mobile" class="form-control" id="validationDefault03" placeholder="Mobile" pattern="[0-9]{10}" title="Please Enter Valid mobile Number" required>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- //inner page banner-->
+
+<!--Courses-->
+<style>
+#exTab3
+{
+  margin:1em 0;  
+}
+
+#exTab3 .nav-pills > li
+{
+  padding:10px;
+  border:1px solid #ccc;
+  border-bottom-color:transparent;
+  border-radius:7px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+  background-color:#428bca;    
+}
+#exTab3 .nav-pills > li.active,
+#exTab3 .nav-pills > li.active a
+{
+  color:black !important;
+  background-color:#fff;    
+}
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+  color:white;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #fff;
+  padding : 5px 15px;
+  border-left:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+}
+.course_wrap{
+  margin-bottom: 2em;
+}
+.course_wrap > p
+{
+  padding:.5em 0;
+  font-weight:500;
+}
+.subs-2 > li,
+.subs > li
+{
+  margin:.5em 0;
+
+}
+.subs-2
+{
+  padding-left:1em;    
+}
+.benefits
+{
+  padding-left: 1em;    
+}
+
+.benefits > li 
+{
+  margin:.5em 0;    
+  padding-left: 1em;  
+}
+.benefits > div > h2,
+.benefits > div > span > h2
+{
+  font-size:1.3em !important;
+}
+.bnf > span 
+{
+  margin:.5em 0;    
+}
+.tab-pane
+{
+  color:black !important;    
+}
+</style>
+
+<div class="container course_wrap">
+
+  <h3 class="text-capitalize">Certified Business Analytics Professional</h3>
+  <p><strong>Course Objective:</strong> Business Analytics is the scientific process of deriving insights from raw data to support decision making. Through this business analytics course you will learn how to use analytical techniques and the R & SAS language to solve business problems. This is a comprehensive business analytics course which will take you from the basics of statistical techniques, R & SAS language right up to building predictive models. By the end of this course you will be able to demonstrate your business analytics skills to employers.</p>
+  <div class="row">
+    <div id="exTab3" class="container">	
+      <ul  class="nav nav-pills">
+       <li data-href="#1b" class="active">
+        <a  href="#1b" data-toggle="tab">Overview</a>
+      </li>
+      <li data-href="#2b">
+        <a href="#2b" data-toggle="tab">Course Curriculum</a>
+      </li>
+    </ul>
+
+    <div class="tab-content clearfix">
+     <div class="tab-pane active" id="1b">
+         <h6>This is a self-learning course through recorded videos where you can learn at your own time and pace. Get faculty support through forums, email or calls for your doubts.</h6>
+      <span style="color: #000000;">
+        <ul class="subs" style="padding-left: 1em;">
+<li>Learn R, SAS &amp; Business Analytics in this comprehensive course</li>
+<li>Learn easily at your <b>own time and pace from anywhere. Enrol and start learning immediately!</b> </li>
+<li>Learn through <b>85 hours of online class recorded videos</b> and 75 hours of assignments &amp; projects</li>
+<li><b>Get all your doubts and queries cleared by faculty</b> through forums, emails and scheduled calls</li>
+<li><b>Get 24x7, life-time access</b> to recorded classes and course material on our learning management system. No time limits or deadlines!</li>
+<li><b>Get certified</b> by us after course completion based on project evaluation</li>
+<li>Get career assistance post certification to get into a career in data science</li> 
+<li>Download the free R &amp; SAS softwares on your own computer to practice 24x7x365</li>
+        </ul>
+        <!--<a target="_blank" class="button new" href="">
+          <button class="btn btn-primary">Enroll Now</button>            
+        </a>
+        -->
+        <br>
+    </span>
+         
+  </div>
+  <div class="tab-pane" id="2b">
+
+    <style> 
+    table {
+      width:100%;
+      border:1px solid #ddd;
+      border-spacing: 0;
+      border-collapse: collapse;
+      border-right-width:0;
+      border-bottom-width:0;
+    }
+    table-new {
+      width:100%;
+      border:10px solid #ddd;
+      border-spacing: 0;
+      border-collapse: collapse;
+      border-right-width:10px;
+      border-bottom-width:10px;
+    }
+    thead {
+      background-color:#eee;
+      color:#555;
+      font-size:1em;
+    }
+    th,td {
+      padding:5px;
+      border:1px solid #ddd;
+      border-top-width:0;
+      border-left-width:0;
+    }
+    td, th {
+      text-align:left;
+    }
+
+  </style>
+
+<table width="580" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="337">
+<p align="center" style="color:#007dc4" ;=""><b>Topic</b></p>
+</td>
+<td width="296">
+<p align="center" style="color:#007dc4" ;=""><b>What does it mean?</b></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>Introduction to business analytics</b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>What is analytics and why is it so important?</li>
+	<li>Applications of analytics</li>
+	<li>Different kinds of analytics</li>
+	<li>Various analytics tools</li>
+	<li>Analytics project methodology</li>
+	<li>Case study</li>
+</ul>
+</td>
+<td width="296">In this section we shall provide you an overview into the world of analytics. You will learn about the various applications of analytics, how companies are using analytics to prosper and study the analytics cycle.</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>Fundamentals of R </b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>Installation of R &amp; R Studio</li>
+	<li>Getting started with R</li>
+	<li>Basic and Advanced Data types in R</li>
+	<li>Variable operators in R</li>
+	<li>Working with R data frames</li>
+	<li>Reading and writing data files to R</li>
+	<li>R functions and loops</li>
+	<li>Special utility functions</li>
+	<li>Merging and sorting data</li>
+	<li>Practice assignment</li>
+</ul>
+</td>
+<td width="296">R is the most popular software/language for data management &amp; statistical analysis of data. It is free and open source. This module is all about learning how to manage and manipulate data and datasets, the very first step of analytics. We shall teach you how to use the R language to work with data using a case study.</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>Univariate statistics in R </b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>Summarizing data, measures of central tendency</li>
+	<li>Measures of data variability &amp; distributions</li>
+	<li>Using R language to summarize data</li>
+	<li>Practice assignment</li>
+</ul>
+</td>
+<td width="296">This is where you shall learn how to start understanding the story your data is narrating by summarizing the data, checking its variability and shape. We shall take you through various ways of doing this using the R language and also solve a real-world case study</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>Data visualization in R</b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>Need for data visualization</li>
+	<li>Components of data visualization</li>
+	<li>Utility and limitations</li>
+	<li>Introduction to grammar of graphics</li>
+	<li>Using the ggplot2 package in R to create visualizations</li>
+       <li>Practice assignment</li>
+</ul>
+</td>
+<td width="296">Data visualization is extremely important to understand what the data is saying and gain insights in just one glance. Visualization of data is a strong point of the R software and you will learn the same in this module.</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>Hypothesis testing and ANOVA in R </b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>Introducing statistical inference</li>
+	<li>Estimators and confidence intervals</li>
+	<li>Central Limit theorem</li>
+	<li>Parametric and non-parametric statistical tests</li>
+	<li>Analysis of variance (ANOVA)</li>
+	<li>Case study</li>
+	</ul>
+</td>
+<td width="296">With 95% confidence we can say that there is a 75% chance, people visiting this site thrice will enroll for the course :). In this module, you learn how to create a hypothesis, statistically test it and validate it through data and present it with clear and formal numbers to support decision making.</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>Data preparation using R</b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>Needs &amp; methods of data preparation</li>
+	<li>Handling missing values</li>
+	<li>Outlier treatment</li>
+	<li>Transforming variables</li>
+	<li>Derived variables</li>
+	<li>Binning data</li>
+	<li>Modifying data with Base R</li>
+	<li>Data processing with dplyr package</li>
+	<li>Using SQL in R</li>
+	<li>Practice assignment</li>
+</ul>
+</td>
+<td width="296">Real world data is rarely going to be given to you perfect on a platter. It will always be dirty with missing data points, incorrect data, variables needing to be changed or created in order to analyze etc. A typical analytics project will have 60% of its time spent on preparing data for analysis. This is a crucial process as properly cleaned data will result in more accurate and stable analysis. We shall teach you all the techniques required to be successful in this aspect.</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+</td></tr><tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>Introduction to SAS</b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>What is the SAS software?</li>
+	<li>Why is it used?</li>
+	<li>SAS GUI layout</li>
+	<li>Components of a SAS program</li>
+	<li>SAS libraries and library referencing</li>
+	<li>SAS datasets &amp; variables</li>
+	<li>Hands-on practice</li>
+</ul>
+</td>
+<td width="296">In this section we shall provide you an overview into the SAS software and the SAS language.</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>Accessing data in SAS</b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>Creating SAS datasets</li>
+	<li>Referencing SAS files</li>
+	<li>Reading SAS datasets</li>
+	<li>Read/Import raw data files in SAS</li>
+	<li>INPUT statement and its components</li>
+	<li>Infile, Informat statements and Proc Import</li>
+	<li>Reading delimited data</li>
+	<li>Various options while importing files</li>
+	<li>Combine SAS datasets using DATA step</li>
+	<li>Hands-on practice</li>
+</ul>
+</td>
+<td width="296">In this module you will learn how to read a SAS data file and import or read into SAS any raw data file for eg: an excel file or a csv file.</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>Managing Data in SAS</b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>Investigate SAS datasets using basic Procs</li>
+	<li>Sorting observations</li>
+	<li>Conditional execution of SAS statements</li>
+	<li>Assignment statements in DATA step</li>
+	<li>Variable attribute modification</li>
+	<li>Using BY statement to create totals and sub-totals</li>
+	<li>Various SAS functions to manipulate &amp; convert data</li>
+	<li>Merging datasets</li>
+	<li>Hands-on practice</li>
+</ul>
+</td>
+<td width="296">This is where you shall learn how to manage and manipulate data using SAS to meet business requirements</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>Advanced SAS</b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>PROC SQL for ETL in SAS</li>
+	<li>Writing SAS Macros</li>
+	<li>Hands-on practice</li>
+</ul>
+</td>
+<td width="296">This is where you shall learn advanced ways to manage and work with data using SAS </td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4; font-size: 15px" ;=""><b>Predictive analytics in R </b></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>1.</b><b> Correlation and Linear regression</b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>Correlation</li>
+	<li>Simple linear regression</li>
+	<li>Multiple linear regression</li>
+	<li>Model diagnostics and validation</li>
+	<li>Case study</li>
+</ul>
+</td>
+<td width="296">A statistical model is the core of predictive analytics and regression is one of the most powerful tools for making predictions by finding patterns in data. You shall learn the basic of regression modelling hands-on through real world cases</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>2.</b><b> Logistic regression </b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>Moving from linear to logistic regression</li>
+	<li>Model assumptions and Odds ratio</li>
+	<li>Model assessment and gains table</li>
+	<li>ROC curve and KS statistic</li>
+	<li>Case study</li>
+</ul>
+</td>
+<td width="296">Logistic regression is the work-horse of the predictive analytics world.  It is used to make predictions in cases where the outcomes are dual in nature i.e. an X or Y scenario where we need to predict if X will be the case or will Y, given some data. This is a must-know technique and we shall make you comfortable with it through real world problems.</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>3.</b><b> Segmentation for marketing analytics</b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>Need for segmentation</li>
+	<li>Criterion of segmentation</li>
+	<li>Types of distances</li>
+	<li>Clustering algorithms</li>
+       <li style="list-style-type:none"><ul style="padding-left: 1em; text-indent: -1em;"><li>Hierarchical clustering</li>
+        <li>K-means clustering</li></ul></li>
+	<li>Deciding number of clusters</li>
+	<li>Case study</li>
+</ul>
+</td>
+<td width="296">Learn why and how to statistically divide a broad customer market into various segments of customers who are similar to each other so as to be able to better target and meet their needs in a cost effective manner. This is one of the most essential techniques in marketing analytics.</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>4.</b><b> Time series forecasting</b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>What are time-series?</li>
+	<li>Need for forecasting</li>
+	<li>Trends, seasons, cycles</li>
+	<li>Exponential smoothing-Holt Winters method</li>
+    <li>ARIMA</li>
+       <li> Case Study</li>
+</ul>
+</td>
+<td width="296">The ability to forecast into the future is very important for any business and it is necessary to have as accurate a forecasting as possible for corporate planning for finance, sales, marketing, strategy etc.  In this module learn the techniques of forecasting without being mis-led by seasonal and cyclical impacts.</td>
+</tr>
+<tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4" ;=""><b>5.</b><b> Decision Trees</b></p>
+</td>
+</tr>
+<tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>What are decision trees?</li>
+	<li>Entropy</li>
+	<li>Gini impurity index</li>
+	<li>Decison trees algorithms</li>
+        <li style="list-style-type:none"><ul style="padding-left: 1em; text-indent: -1em;"><li>ID3</li>
+        <li>C4.5</li>
+        <li>CART</li>
+        <li>CHAID</li>
+        <li>Regression trees</li></ul></li>
+</ul>
+</td>
+<td width="296">Decision trees are one of the most popular classification and prediction methods for helping in decision making. Learn the various decision tree algorithms and learn how to create a decision tree model.</td>
+</tr>                                                                                                       <tr>
+<td colspan="2" width="580">
+<p align="center" style="color:#007dc4; font-size: 15px" ;=""><b>Predictive analytics in SAS </b></p>
+</td>
+</tr><tr>
+<td width="337">
+<ul style="padding-left: 1em; text-indent: -1em;">
+	<li>Univariate statistics</li>
+         <li>Hypothesis testing &amp; Anova</li>
+         <li>Linear regression</li>
+	<li>Logistic regression</li>
+	<li>Clustering</li>
+	<li>Hands-on practice</li>
+</ul>
+</td>
+<td width="296">In this module you will learn the SAS codes for predictive modeling</td>                                                      </tr>        
+<tr>
+<td rowspan="2" width="337" style="color:#007dc4" ;=""><b>Solving an actual business problem through analytics – Simulating an analytics project</b></td>
+<td rowspan="2" width="296">Simulation of an actual analytics project where you shall be completely hands-on and you will understand how everything you have learnt so far comes together to solve a business problem through analytics</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="row benefits">    
+  <div class="container bnf">
+      
+    <h2>Benefits of taking the business analytics course</h2>
+    <span style="color: #000000;">
+      <ul class="subs-2">
+          <li>Learn fundamentals of predictive analytics techniques and how & where to use them</li>
+          <li>Learn the R & SAS software hands-on to manage, manipulate, cleanse and analyze data</li>
+          <li>You will not just learn the techniques and tools in isolation but will combine and apply them to derive business insights from raw data</li>
+          <li>Analytics talent demand is much more than the available skilled supply. Become employable in this fast growing new age field by demonstrating the skills learnt through this course</li>
+          <li>Use these new-age skills in your existing role to become more efficient and effective</li>
+
+      </ul>
+    </span>
+    <br>
+      
+      
+
+<h2>Who should take this course</h2><br>
+  <span style="color: #000000;">
+    <p>This course is for students pursuing their graduation/post-graduation and for working professionals who have completed their graduation in any field. There are no other prerequisites but you do need to have a quantitative bent of mind. For those who hate maths or numbers, while we shall try to make you as comfortable as possible, the analytics field itself may prove to be a challenge for you.</p>      
+    </span>
+  <br>
+  
+</div>      
+</div>
+
+</div>    
+
+<!--Courses-->
+
+<!-- footer --> 
+  <footer>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <h3 class="text-uppercase mb-3">Address</h3>
+          <address>
+            <p><strong>Headquarters:</strong></p>
+            <p class="mb-3" id="address-details">Level 7, Maximus Towers</p>
+            <p class="mb-3" id="address-details">Building 2A,</p>
+            <p class="mb-3" id="address-details">Mindspace Complex,</p>
+            <p class="mb-3" id="address-details">Hitech City, Hyderabad 500081 India</p>
+            <p id="phone-style"><strong>Phone</strong> : +91 40-40339900</p>
+            <p><strong>Email</strong> : <a href="mailto:info@example.com">shilpa.singh@chgs.in</a></p>
+            <p><strong>Fax</strong> : +91 40-40339898 </p>
+          </address>
+        </div>
+        <div class="col-lg-2 col-md-6 mt-lg-0 mt-sm-0 mt-4 p-md-0">
+          <h3 class="text-uppercase mb-3">Site Map</h3>
+          <div class="links">
+            <a class="pt-2 text-capitalize" href="#"><i class="fas fa-angle-right"></i> Navigation</a>
+            <a class="pt-2 text-capitalize" href="#"><i class="fas fa-angle-right"></i> Documentation</a>
+            <a class="pt-2 text-capitalize" href="#"><i class="fas fa-angle-right"></i> Business</a>
+            <a class="pt-2 text-capitalize" href="#"><i class="fas fa-angle-right"></i> Technical support</a>
+            <a class="pt-2 text-capitalize" href="#"><i class="fas fa-angle-right"></i> 24/7 Service</a>
+            <a class="pt-2 text-capitalize" href="#"><i class="fas fa-angle-right"></i> Feedback</a>
+          </div>  
+        </div>
+        <div class="col-lg-3 col-md-6 mt-lg-0 mt-4">
+          <h3 class="text-uppercase mb-3">Recent posts</h3>
+          <div class="posts">
+            <p class="pt-2">lorem ipsum dolor sit amet
+              <span class="font-italic">31st march, 2018.</span></p>
+              <p class="py-2 my-2 middle">lorem ipsum dolor sit amet
+                <span class="font-italic">31st march, 2018.</span></p>
+                <p class="pt-2">lorem ipsum dolor sit amet
+                  <span class="font-italic">31st march, 2018.</span></p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
+                <h3 class="text-uppercase mb-3">Social Links</h3>
+                <ul class="social mt-lg-0 mt-3">
+                  <li class="mx-2"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fas fa-rss"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fab fa-vk"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fab fa-yahoo"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- footer -->
+
+
+      <!-- copyright -->
+      <div class="copyright py-4">
+        <div class="container">
+          <div class="copyrightgrids row">
+            <div class="col-lg-6 col-12">
+              <p>© 2018 Career Corp . All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a></p>
+            </div>
+            <div class="col-lg-6 col-12">
+              <ul class="social text-right mt-lg-0 mt-3">
+                <li><p class="mx-2 text-capitalize">follow us on : </p></li>
+                <li class="mx-2"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                <li class="mx-2"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                <li class="mx-2"><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                <li class="mx-2"><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                <li class="mx-2"><a href="#"><span class="fas fa-rss"></span></a></li>
+                <li class="mx-2"><a href="#"><span class="fab fa-vk"></span></a></li>
+                <li class="mx-2"><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
+                <li class="mx-2"><a href="#"><span class="fab fa-yahoo"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //copyright -->
+
+      <!-- Vertically centered Modal -->
+<!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-uppercase text-center" id="exampleModalLongTitle"> Career Corp</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+    <img src="images/banner.jpg" class="img-fluid mb-3" alt="Modal Image" />
+        Vivamus eget est in odio tempor interdum. Mauris maximus fermentum arcu, ac finibus ante. Sed mattis risus at ipsum elementum, ut auctor turpis cursus. Sed sed odio pharetra, aliquet velit cursus, vehicula enim. Mauris porta aliquet magna, eget laoreet ligula.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- //Vertically centered Modal -->
+
+<!-- js-scripts -->   
+
+<!-- js -->
+<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
+<!-- //js --> 
+
+<!-- odometer-script -->
+  <!-- <script src="js/odometer.js"></script>
+  <script>
+    window.odometerOptions = {
+      format: '(ddd).dd'
+    };
+  </script>
+  <script>
+    setTimeout(function () {
+      jQuery('#w3l_stats1').html(25);
+    }, 1500);
+  </script>
+  <script>
+    setTimeout(function () {
+      jQuery('#w3l_stats2').html(330);
+    }, 1500);
+  </script>
+  <script>
+    setTimeout(function () {
+      jQuery('#w3l_stats3').html(542);
+    }, 1500);
+  </script>
+  <script>
+    setTimeout(function () {
+      jQuery('#w3l_stats4').html(222);
+    }, 1500);
+  </script> -->
+  <!-- //odometer-script -->
+
+  <!-- start-smoth-scrolling -->
+  <script src="js/SmoothScroll.min.js"></script>
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $(".scroll").click(function(event){   
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+      });
+    });
+  </script>
+  <!-- here stars scrolling icon -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.nav-pills > li').click(function()
+      {
+        $('.nav-pills > li').removeClass('active');    
+        $(this).addClass('active');    
+        var $tab=$(this).data('href');
+        $('.tab-pane').removeClass('active');
+        $($tab).addClass('active');
+      });
+      /*
+        var defaults = {
+        containerID: 'toTop', // fading element id
+        containerHoverID: 'toTopHover', // fading element hover id
+        scrollSpeed: 1200,
+        easingType: 'linear' 
+        };
+        */
+
+        $().UItoTop({ easingType: 'easeOutQuart' });
+
+      });
+    </script>
+    <!-- //here ends scrolling icon -->
+    <!-- start-smoth-scrolling -->
+
+    <!-- FlexSlider-JavaScript -->
+  <!-- <script defer src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+        });
+        $(window).load(function(){
+        $('.flexslider').flexslider({
+          animation: "slide",
+          start: function(slider){
+            $('body').removeClass('loading');
+          }
+      });
+    });
+  </script> -->
+  <!-- //FlexSlider-JavaScript -->
+  <!-- //js-scripts -->
+
+</body>
+</html>
