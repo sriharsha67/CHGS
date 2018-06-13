@@ -405,8 +405,8 @@ a:focus, a:hover {
 }
 .about h1, .services h3, #gallery h3, .team h3, .gallery h3, .event h3, .contact-agile h3{
 	font-size: 3em;
-    color:#333;
-    font-family: 'Lato', sans-serif;
+  color:#333;
+  font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	text-align:center;
 	margin-bottom: 1em;
@@ -731,6 +731,19 @@ li.agileits-main {
 	-o-background-size: cover;
 	-ms-background-size: cover;
 	-moz-background-size: cover;
+}
+
+.services .more-courses{
+  width: max-content;
+  clear: both;
+  float: right;
+  position: relative;
+  right: 3%;
+  top: 25px;
+}
+.services .more-courses a{
+  font-size: 1.5em;
+  color: #fff;
 }
 .hi-icon,.hi-icon:after{
 	border-radius:0px;
