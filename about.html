@@ -275,7 +275,7 @@
 <div class="banner-bottom py-5 my-lg-5">
 	<div class="container">
 		<h3 class="heading mb-5 text-capitalize text-center">Our Team </h3>
-		<div class="row w3_testimonials_grids">
+		<!--<div class="row w3_testimonials_grids">
 
 			<div class="team-members">
 				<h4 class="heading mb-5 text-capitalize text-center">Training Team </h4>
@@ -533,7 +533,37 @@
 				</div>
 			</div>
 
-		</div>
+		</div>-->
+        <div class="row">
+
+<style>
+.bx-caption
+{
+text-align:center;
+font-size:2em;
+font-weight:600;
+padding:10px 0;
+}
+</style>
+  <!-- Wrapper for slides -->
+  <div class="slider">
+      
+    <div class="item">
+      <img src="https://www.w3schools.com/bootstrap/chicago.jpg" title="IT TEAM">
+    </div>
+
+    <div class="item">
+      <img src="https://www.w3schools.com/bootstrap/ny.jpg" title="HR TEAM">
+    </div>
+
+    <div class="item">
+      <img src="https://www.w3schools.com/bootstrap/la.jpg" title="CONSULTING TEAM">
+    </div>
+      
+  </div>
+                
+
+        </div>
 	</div>
 </div>
 <!-- //team -->
@@ -809,27 +839,35 @@
 	<!-- js -->
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
+    <!-- start-smoth-scrolling -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+	
 	<!-- //js -->	
 	
 	<!-- Owl-Carousel-JavaScript -->
 		<script src="js/owl.carousel.js"></script>
 		<script>
 			$(document).ready(function() {
-				$("#owl-demo").owlCarousel ({
+				/*$("#owl-demo").owlCarousel ({
 					items : 3,
 					lazyLoad : true,
 					autoPlay : true,
-					pagination : true,
-					dotsData:true
-				});
+					pagination : true
+				});*/
+                $('.slider').bxSlider({
+                    pager:false,
+                    controls:false,
+                    captions:true,
+                    auto:true
+                });
 			});
-		</script>
+      		</script>
 	<!-- //Owl-Carousel-JavaScript -->  
 
-	<!-- start-smoth-scrolling -->
-	<script src="js/SmoothScroll.min.js"></script>
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$(".scroll").click(function(event){		
@@ -850,7 +888,7 @@
 				};
 			*/
 								
-			$().UItoTop({ easingType: 'easeOutQuart' });
+			//$().UItoTop({ easingType: 'easeOutQuart' });
 								
 			});
 	</script>
@@ -858,14 +896,9 @@
 	<!-- start-smoth-scrolling -->
 
 	  <!-- jQuery-Photo-filter-lightbox-Gallery-plugin -->
-    <script src="js/jquery-1.7.2.js"></script>
-    <script src="js/jquery.quicksand.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
+
     <!-- //jQuery-Photo-filter-lightbox-Gallery-plugin -->
 
-    <!--  Team Animation -->
-    <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js" ></script>
 			<script type="text/javascript">
     	(function() {
 
