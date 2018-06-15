@@ -35,7 +35,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</button>
 				<a class="navbar-brand" href="#">
 					<div class="logo-img">
-						<img src="../images/mainlogo.png" alt="Logo" class="img-responsive">
+						<img src="../images/mainLogo.png" alt="Logo" class="img-responsive">
 					</div>
 				</a>
 			</div>
@@ -65,38 +65,17 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 	<div class="header">
 		<!-- Slider -->
-			<div class="slider">
-				<div class="callbacks_container">
-					<ul class="rslides" id="slider">
-						<li>
-						
-							<div class="slider-info">
-								<p>Successful Career starts with good training</p>
-								<h3><a href="index.html"><span>Kalpa</span>Vriksh</a></h3>
-								<h6>A Perfect Learning Center.</h6>
-							</div>
-						</li>
-						<li>
-						
-							<div class="slider-info">
-								<p>Opportunities for Career Growth</p>
-								<h3><a href="index.html"><span>Kalpa</span>Vriksh</a></h3>
-								<h6>A Perfect Learning Center.</h6>
-							</div>
-						</li>
-						<li>
-						
-							<div class="slider-info">
-								<p>Learning Never Ends</p>
-								<h3><a href="index.html"><span>Kalpa</span>Vriksh</a></h3>
-								<h6>A Perfect Learning Center</h6>
-							</div>
-						</li>
-							
-					</ul>
+		<div class="slider">
+			<div class="callbacks_container rslides" id="slider">
+
+				<div class="slider-info">
+					<p>"Key factor for any emerging company to develop"</p>
+					<h3><a href="index.html"><span>IT</span> Services</a></h3>   
 				</div>
-				<div class="clearfix"></div>
+
 			</div>
+			<div class="clearfix"></div>
+		</div>
 		<!-- //Slider -->
 	</div>
 </div>
@@ -136,74 +115,176 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	</div>
 	<div class="clearfix"></div>
 <!--//about-->
+<style>
+.app-service
+{
+position:relative;
+/*background:#fff;*/
+border:1px solid #ccc;
+margin:1em;
+min-height:250px;
+max-width:250px;
+background: url(../IT/images/services/app-dev.png) no-repeat center;
+background-color: rgba(0,0,0,0.8);
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
 
+}
+.web-service
+{
+position:relative;
+/*background:#fff;*/
+border:1px solid #ccc;
+margin:1em;
+min-height:250px;
+max-width:250px;
+background: url(../IT/images/services/web-dev.jpg) no-repeat center;
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+
+}
+.digi-service
+{
+position:relative;
+/*background:#fff;*/
+border:1px solid #ccc;
+margin:1em;
+min-height:250px;
+max-width:250px;
+background: url(../IT/images/services/digital-marketing.jpg) no-repeat center;
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+
+}
+.design-service
+{
+position:relative;
+/*background:#fff;*/
+border:1px solid #ccc;
+margin:1em;
+min-height:250px;
+max-width:250px;
+background: url(../IT/images/services/design.png) no-repeat center;
+background-color: rgba(0,0,0,0.8);
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+
+}
+.digi-service .service-desc h5, .web-service .service-desc h5
+{
+font-size:1.5em;
+padding:5px;
+color: #000 !important; 
+text-align: center;
+}
+.services-gd .slide
+{
+padding:2em; 
+overflow:hidden;
+}
+
+.service-desc
+{
+position: absolute;
+width: 100%;
+height: 200px;
+top: 75%;
+left: 0;
+text-align:left;
+transition:.5s all linear;
+-webkit-transition:.5s all linear;
+-moz-transition:.5s all linear;
+-o-transition:.5s all linear;
+-ms-transition:.5s all linear;
+}
+.service-desc h5
+{
+font-size:1.5em;
+padding:5px;
+color: #fff;
+text-align: center;
+}
+.web-service:hover .service-desc, .app-service:hover .service-desc, 
+.design-service:hover .service-desc, .digi-service:hover .service-desc
+{
+position: absolute;
+width: 100%;
+height: 200px;
+top: 0%;
+left: 0;
+transition:.5s all linear;
+-webkit-transition:.5s all linear;
+-moz-transition:.5s all linear;
+-o-transition:.5s all linear;
+-ms-transition:.5s all linear;
+color: #fff !important;
+background-color: #000;
+background-size: 100% 100%;
+opacity: 0.9;   
+}
+.web-service:hover .service-desc h5, 
+.digi-service:hover .service-desc h5{
+ position: absolute;
+width: 100%;
+height: 200px;
+top: 0%;
+left: 0;
+transition:.5s all linear;
+-webkit-transition:.5s all linear;
+-moz-transition:.5s all linear;
+-o-transition:.5s all linear;
+-ms-transition:.5s all linear;
+color: #fff !important;
+background-color: #000;
+background-size: 100% 100%;
+opacity: 0.9;   
+}
+</style>
 <!-- services -->
 <div class="services" id="courses">
-  <h3>Our <span style="color:#009688;">Courses</span></h3>
+  <h3>Our <span style="color:#009688;">Services</span></h3>
   <div class="hr-services slider">
-    <div class="col-md-2 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-        <a href="#" class="hi-icon"><img src="images/book.png" alt=" " /></a>
+    <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
+      <div class="web-service">
+          <div class="service-desc">
+              <h5>Web Development</h5>
+          </div>
       </div>
-      <h4>Course 1</h4>
-      <p>Lorem Ipsum</p>
     </div>
-    <div class="col-md-2 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-        <a href="#" class="hi-icon"><img src="images/edu.png" alt=" " /></a>
+    <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
+      <div class="app-service">
+          <div class="service-desc">
+              <h5>App Development</h5>
+          </div>
       </div>
-      <h4>Course 2</h4>
-      <p>Lorem Ipsum</p>
     </div>
-    <div class="col-md-2 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-        <a href="#" class="hi-icon"><img src="images/uni.png" alt=" " /></a>
+    <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
+      <div class="design-service">
+          <div class="service-desc">
+              <h5>Designing</h5>
+          </div>
       </div>
-      <h4>Course 3</h4>
-      <p>Lorem Ipsum</p>
     </div>
-    <div class="col-md-2 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-        <a href="#" class="hi-icon"><img src="images/hourglass.png" alt=" " /></a>
+    <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
+      <div class="digi-service">
+          <div class="service-desc">
+              <h5>Digital Marketing</h5>
+          </div>
       </div>
-      <h4>Course 4</h4>
-      <p>Lorem Ipsum</p>
     </div>
-    <div class="col-md-2 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-        <a href="#" class="hi-icon"><img src="images/book2.png" alt=" " /></a>
-      </div>
-      <h4>Course 5</h4>
-      <p>Lorem Ipsum</p>
-    </div>
-    <div class="col-md-2 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-        <a href="#" class="hi-icon"><img src="images/book2.png" alt=" " /></a>
-      </div>
-      <h4>Course 6</h4>
-      <p>Lorem Ipsum</p>
-    </div>
-    <div class="col-md-2 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-        <a href="#" class="hi-icon"><img src="images/book2.png" alt=" " /></a>
-      </div>
-      <h4>Course 7</h4>
-      <p>Lorem Ipsum</p>
-    </div>
-    <div class="col-md-2 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-        <a href="#" class="hi-icon"><img src="images/book2.png" alt=" " /></a>
-      </div>
-      <h4>Course 8</h4>
-      <p>Lorem Ipsum</p>
-    </div>
-    <div class="col-md-2 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-        <a href="#" class="hi-icon"><img src="images/book2.png" alt=" " /></a>
-      </div>
-      <h4>Course 9</h4>
-      <p>Lorem Ipsum</p>
-    </div>
+
   </div>
   <div class="clearfix"> </div>
 </div>
@@ -403,11 +484,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script>
 $(document).ready(function(){
   $('.services > .hr-services').slick({
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
-    arrows: false,
+    autoplaySpeed: 4000,
+    arrows: true,
     dots: false,
     pauseOnHover: true,
     responsive: [{
