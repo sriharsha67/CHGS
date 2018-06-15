@@ -1455,15 +1455,15 @@ address p a:hover {
     text-decoration: underline;
 }
 
-.collections .client-logo-style{
+/*.collections .client-logo-style{
     width: 80%;
     margin: 0 auto;
     margin-top: 15px;
-}
-.collections .client-logo{
-    width: 100px;
-    margin: 0 10px 0 10px;
-}
+}*/
+/*.collections .client-logo{
+    width: 200px;
+    height: 200px;
+}*/
 .testimonials {
     /*background: url(../images/test.jpg) no-repeat 0px 0px;*/
     /*background-size: cover;*/
