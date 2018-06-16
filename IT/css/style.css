@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6{
 }
 /* -- header --*/
 .header{
-    background: url(../images/b2.jpg) no-repeat center;
+    background: url(../images/video3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -30,6 +30,7 @@ h1,h2,h3,h4,h5,h6{
     -moz-background-size: cover;
     min-height: 776px;
   position:relative;
+  margin-top: 4em;
 }
 /*-- top-nav --*/
 /* Underline From Center */
@@ -356,10 +357,15 @@ h1,h2,h3,h4,h5,h6{
 
 .slider-info {
     text-align: center;
-    width: 62%;
-    margin: 27% auto 0;
-    background:rgba(0, 0, 0, 0.51);
+    width: 60%;
+    /* margin: 27% auto 0; */
+    background: rgba(0, 0, 0, 0.51);
     padding: 2em 0em;
+    /*margin: 0 auto;*/
+    position: relative;
+    bottom: 9em;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .slider-info p {
     color: white;
@@ -383,8 +389,8 @@ h1,h2,h3,h4,h5,h6{
     color: white;
     font-size: 3em;
     text-transform: uppercase;
-    font-family: 'samarkan', 'Lato', sans-serif;
-    font-weight: 900;
+    font-family:'Lato', sans-serif;
+    font-weight: 500;
     margin-bottom:0.3em;
     letter-spacing: 2px;
     display: inline-block;

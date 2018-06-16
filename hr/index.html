@@ -116,18 +116,157 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<div class="clearfix"></div>
 <!--//about-->
 <style>
-.service
+.business-service
 {
 position:relative;
-background:#fff;
-border:1px solid #ccc;
+/*background:#fff;*/
+border:1px solid #000;
 margin:1em;
-min-height:200px;
-max-width:200px;
+min-height:250px;
+max-width:250px;
+background: url(./images/services/business-framework.jpg) no-repeat center;
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+text-align:center;
+}
+.compensation-service
+{
+position:relative;
+/*background:#fff;*/
+border:1px solid #000;
+margin:1em;
+min-height:250px;
+max-width:250px;
+background: url(./images/services/compensation-survey.jpg) no-repeat center;
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+text-align:center;
+}
+.employee-service
+{
+position:relative;
+/*background:#fff;*/
+border:1px solid #000;
+margin:1em;
+min-height:250px;
+max-width:250px;
+background: url(./images/services/employee-engagement.jpg) no-repeat center;
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+text-align:center;
+}
+.function-service
+{
+position:relative;
+/*background:#fff;*/
+border:1px solid #000;
+margin:1em;
+min-height:250px;
+max-width:250px;
+background: url(./images/services/function-management.jpg) no-repeat center;
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+text-align:center;
+}
+.audit-service
+{
+position:relative;
+/*background:#fff;*/
+border:1px solid #000;
+margin:1em;
+min-height:250px;
+max-width:250px;
+background: url(./images/services/hr-audit.png) no-repeat center;
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+text-align:center;
+background-color: rgba(0,0,0,0.8);
+color: #fff;
+}
+.outplacement-service
+{
+position:relative;
+/*background:#fff;*/
+border:1px solid #000;
+margin:1em;
+min-height:250px;
+max-width:250px;
+background: url(./images/services/outplacement.png) no-repeat center;
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+text-align:center;
+background-color: rgba(0,0,0,0.8);
+color: #fff;
+}
+.payroll-service
+{
+position:relative;
+/*background:#fff;*/
+border:1px solid #000;
+margin:1em;
+min-height:250px;
+max-width:250px;
+background: url(./images/services/payroll.jpeg) no-repeat center;
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+text-align:center;
+}
+.talent-service
+{
+position:relative;
+/*background:#fff;*/
+border:1px solid #000;
+margin:1em;
+min-height:250px;
+max-width:250px;
+background: url(./images/services/talent.png) no-repeat center;
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+text-align:center;
+}
+.performance-service
+{
+position:relative;
+/*background:#fff;*/
+border:1px solid #000;
+margin:1em;
+min-height:250px;
+max-width:250px;
+background: url(./images/services/performance-management.jpg) no-repeat center;
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+text-align:center;
 }
 .services-gd .slide
 {
- padding:2em; 
+padding:2em; 
 overflow:hidden;
 }
 
@@ -135,7 +274,7 @@ overflow:hidden;
 {
 position: absolute;
 width: 100%;
-height: 200px;
+height: 100%;
 top: 75%;
 left: 0;
 text-align:left;
@@ -145,12 +284,22 @@ transition:.5s all linear;
 -o-transition:.5s all linear;
 -ms-transition:.5s all linear;
 }
-.service-desc h5
+.business-service .service-desc h5,.compensation-service .service-desc h5,
+.employee-service .service-desc h5,.function-service .service-desc h5,
+.audit-service .service-desc h5,.outplacement-service .service-desc h5,
+.payroll-service .service-desc h5,.talent-service .service-desc h5,
+.performance-service .service-desc h5
 {
-font-size:18px;
+font-size:1.5em;
 padding:5px;
+text-align: center;
+font-weight: 600;
 }
-.service:hover .service-desc
+.business-service:hover .service-desc,.compensation-service:hover .service-desc,
+.employee-service:hover .service-desc,.function-service:hover .service-desc,
+.audit-service:hover .service-desc,.outplacement-service:hover .service-desc,
+.payroll-service:hover .service-desc,.talent-service:hover .service-desc,
+.performance-service:hover .service-desc
 {
 position: absolute;
 width: 100%;
@@ -161,16 +310,20 @@ transition:.5s all linear;
 -webkit-transition:.5s all linear;
 -moz-transition:.5s all linear;
 -o-transition:.5s all linear;
--ms-transition:.5s all linear;        
+-ms-transition:.5s all linear;
+color: #fff;
+background-color: #000;
+background-size: 100% 100%;
+opacity: 0.8;   
 }
 </style>
 <!-- services -->
 <div class="services" id="courses">
-  <h3>Our <span style="color:#009688;">Courses</span></h3>
+  <h3>Our <span style="color:#009688;">Services</span></h3>
   <div class="hr-services slider">
       
     <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="service">
+      <div class="performance-service">
           <div class="service-desc">
               <h5>Performance Management System</h5>
           </div>
@@ -178,7 +331,7 @@ transition:.5s all linear;
     </div>
       
     <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="service">
+      <div class="payroll-service">
           <div class="service-desc">
               <h5>Payroll</h5>
           </div>
@@ -186,23 +339,28 @@ transition:.5s all linear;
     </div>
       
     <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="service">
+      <div class="business-service">
           <div class="service-desc">
-              <h5>HR Business Framwork</h5>
+              <h5>HR Business Framework</h5>
           </div>
       </div>
     </div>
       
     <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="service">
+      <div class="employee-service">
           <div class="service-desc">
               <h5>Employee Engagement</h5>
           </div>
       </div>
     </div> 
       
+<<<<<<< HEAD
     <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
       <div class="service">
+=======
+          <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
+      <div class="compensation-service">
+>>>>>>> 73744005368e6997bb1b71d6e3c7b615b2e17c29
           <div class="service-desc">
               <h5>Compensation Survey</h5>
           </div>
@@ -210,7 +368,7 @@ transition:.5s all linear;
     </div>
       
     <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="service">
+      <div class="outplacement-service">
           <div class="service-desc">
               <h5>Outplacement</h5>
           </div>
@@ -218,7 +376,7 @@ transition:.5s all linear;
     </div>
       
     <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="service">
+      <div class="audit-service">
           <div class="service-desc">
               <h5>HR Audit</h5>
           </div>
@@ -226,13 +384,26 @@ transition:.5s all linear;
     </div>
       
     <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
-      <div class="service">
+      <div class="talent-service">
           <div class="service-desc">
               <h5>Talent Acquisition</h5>
           </div>
       </div>
+<<<<<<< HEAD
     </div>    
       
+=======
+    </div>
+
+    <div class="col-md-4 services-gd slide text-center" data-wow-delay=".5s">
+      <div class="function-service">
+          <div class="service-desc">
+              <h5>HR Function Management</h5>
+          </div>
+      </div>
+    </div>
+
+>>>>>>> 73744005368e6997bb1b71d6e3c7b615b2e17c29
   </div>
   <div class="clearfix"> </div>
 </div>

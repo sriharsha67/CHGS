@@ -113,3 +113,17 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.slick-slider .slick-prev{
+    display: inline;
+    position: relative;
+    top: 0;
+    left: 1%;
+}
+
+.slick-slider .slick-next{
+    display: inline;
+    position: relative;
+    left: 95%;
+    bottom: 21em;
+}

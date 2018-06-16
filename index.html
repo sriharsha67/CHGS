@@ -23,9 +23,12 @@
 
 	<!-- css files -->
 	<link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+  <link href="css/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/fontawesome-all.css"> <!-- Font-Awesome-Icons-CSS -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"> -->
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
-	<link rel="stylesheet" href="css/fontawesome-all.css"> <!-- Font-Awesome-Icons-CSS -->
+  
 	<!-- //css files -->
 
 	<!-- web-fonts -->
@@ -388,23 +391,68 @@
         </div>
       </div>
 
-      <!-- //Clients -->
-      <div class="col-lg-6 collections mt-lg-0 mt-5 px-sm-5 px-4">
-        <h3 class="text-center">Clients</h3>
-        <div class="client-logo-style">        	
-	        <img src="images/clients/IBM.gif" width="150" alt="IBM" class="client-logo">
-	        <img src="images/clients/accenture.jpg" alt="Accenture" class="client-logo">
-	        <img src="images/clients/dell.png" alt="Dell" class="client-logo">
-	        <img src="images/clients/wipro.png" alt="Wirpo" class="client-logo">
-	        <img src="images/clients/cap.jpeg" alt="Cap Gemini" class="client-logo">
-	        <img src="images/clients/bosch.png" alt="BOSCH" class="client-logo">
-	        <img src="images/clients/magna.png" alt="Magna" class="client-logo">
-	        <img src="images/clients/tvs.png" alt="TVS" class="client-logo">
-	        <img src="images/clients/samsung.jpg" alt="Samsung" class="client-logo">
+<!-- /* Clients Section
+--------------------------------*/ -->
+<style>
+
+#clients img {
+  max-width: 100%;
+  opacity: 1;
+  transition: 0.3s;
+  padding: 15px 10px;
+}
+
+#clients img:hover {
+  opacity: 1;
+}
+
+#clients .owl-nav, #clients .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#clients .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#clients .owl-dot.active {
+  background-color: #18d26e;
+}
+
+</style>
+    
+    <!--==========================
+      Clients Section
+    ============================-->
+    <div id="clients" class="col-lg-6 collections">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="text-center">Our Clients</h3>
+        </header>
+
+        <div class="owl-carousel clients-carousel">
+          <img src="images/clients/IBM.jpg" alt="IBM">
+          <img src="images/clients/accenture.png" alt="Accenture">
+          <img src="images/clients/wipro.png" alt="Wirpo">
+          <img src="images/clients/cap.png" alt="Cap Gemini">
+          <img src="images/clients/bosch.png" alt="BOSCH">
+          <img src="images/clients/magna.png" alt="Magna">
+          <img src="images/clients/tvs.png" alt="TVS">
+          <img src="images/clients/samsung.jpeg" alt="Samsung">
+          <img src="images/clients/dell.png" alt="Dell">
+          <img src="images/clients/nimsme.jpeg" alt="nimsme">
         </div>
-      </div>
-			
-			<!-- Clients -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+
     </div>
   </div>
 </section>
@@ -584,6 +632,24 @@
 
 	</script>
 	<!-- //FlexSlider-JavaScript -->
+  <!--  Clients carousel (uses the Owl Carousel library) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".clients-carousel").owlCarousel({
+          autoplay: true,
+          dots: false,
+          loop: true,
+          responsive: { 0: { items: 2 }, 768: { items: 2 }, 900: { items: 2 }
+          }
+        });
+      });
+  </script>
+
+
+  </script>
+  <!-- bxSlider for Clients -->
 
 <!-- //js-scripts -->
 
