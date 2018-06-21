@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Career Heights Global Systems</title>
+  
+  <!-- Meta tag Keywords -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="keywords" content="Career Corp Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+  Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+  <script type="application/x-javascript">
+    addEventListener("load", function () {
+      setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+      window.scrollTo(0, 1);
+    }
+  </script>
+  <!--// Meta tag Keywords -->
+
+  <link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="all" /><!-- for testimonials -->
+
+  <!-- css files -->
+  <link rel="stylesheet" href="../css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+  <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+  <link rel="stylesheet" href="../css/fontawesome-all.css"> <!-- Font-Awesome-Icons-CSS -->
+  <!-- //css files -->
+
+  <!-- web-fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <!-- //web-fonts -->
+  
+</head>
+
+<body>
+
+  <!--Header-->
+  <header>
+    <div class="container agile-banner_nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <!-- <a class="navbar-brand" href="index.html">Career Corp <span class="display">Digital technology</span></a> -->
+        <a class="navbar-brand" href="index.html">
+          <img src="../images/logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="../about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="../courses.html">Courses</a>
+            </li>
+            <li class="dropdown nav-item">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu agile_short_dropdown">
+                <li>
+                  <a href="training/index.html">Training</a>
+                </li>
+                <li>
+                  <a href="hr/index.html">HR</a>
+                </li>
+                <li>
+                  <a href="IT/index.html">IT</a>
+                </li>
+                <li>
+                  <a href="consulting/index.html">Consulting</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="../careers.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a href="../contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+  <!--Header-->
+
+  <!-- inner page banner-->
+  <div class="course-detail-banner">
+    <div class="container">      
+      
+
+      <div class="row">
+         
+        <div class="col-md-4 offset-md-8 form-container">
+          <form action="thankyou.php" method="post">
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault01" class="form-data">First name</label>
+                <input type="text" name="firstname" class="form-control" id="validationDefault01" placeholder="First name" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault02" class="form-data">Last name</label>
+                <input type="text" name="lastname" class="form-control" id="validationDefault02" placeholder="Last name" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault03" class="form-data">Email</label>
+                <input type="email" name="email" class="form-control" id="validationDefault03" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault03" class="form-data">Mobile</label>
+                <input type="text" name="mobile" class="form-control" id="validationDefault03" placeholder="Mobile" pattern="[0-9]{10}" title="Please Enter Valid mobile Number" required>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //inner page banner-->
+
+  <!--Courses-->
+  <style>
+  #exTab3
+  {
+    margin:1em 0;  
+  }
+
+  #exTab3 .nav-pills > li
+  {
+    padding:10px;
+    border:1px solid #ccc;
+    border-bottom-color:transparent;
+    border-radius:7px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    background-color:#428bca;    
+  }
+  #exTab3 .nav-pills > li.active,
+  #exTab3 .nav-pills > li.active a
+  {
+    color:black !important;
+    background-color:#fff;    
+  }
+  #exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+    color:white;
+  }
+
+  #exTab3 .tab-content {
+    color : white;
+    background-color: #fff;
+    padding : 5px 15px;
+    border-left:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+  }
+  .course_wrap{
+    margin-bottom: 2em;
+  }
+  .course_wrap > p
+  {
+    padding:.5em 0;
+    font-weight:500;
+  }
+  .subs-2 > li,
+  .subs > li
+  {
+    margin:.5em 0;
+
+  }
+  .subs-2
+  {
+    padding-left:1em;    
+  }
+  .benefits
+  {
+    padding-left: 1em;    
+  }
+
+  .benefits > li 
+  {
+    margin:.5em 0;    
+    padding-left: 1em;  
+  }
+  .benefits > div > h2,
+  .benefits > div > span > h2
+  {
+    font-size:1.3em !important;
+  }
+  .bnf > span 
+  {
+    margin:.5em 0;    
+  }
+  .tab-pane
+  {
+    color:black !important;    
+  }
+</style>
+
+<div class="container course_wrap">
+
+  <h3 class="text-capitalize">Certified Data Science Specialist</h3>
+
+  <p><strong>Course Delivery Mode:</strong> Live Online Classes OR Self-Paced + Faculty Support</p>
+
+  <p><strong>Course Duration:</strong> 150 Hours Of Learning + 150 hours of assignments & projects</p>
+
+  <p><strong>Course Objective:</strong>This is the most comprehensive Data Science course in the world today where you will learn how to use data science techniques including predictive modeling & machine learning techniques on the SQL, R, SAS & Python tools to solve business problems. Post the course you will become an in-demand Data Scientist with huge job opportunities.</p>
+
+  <div class="row">
+    <div id="exTab3" class="container"> 
+      <ul  class="nav nav-pills">
+       <li data-href="#1b" class="active">
+        <a  href="#1b" data-toggle="tab">Self-Paced + Faculty Support Learning</a>
+      </li>
+      <li data-href="#2b">
+        <a href="#2b" data-toggle="tab">Course Curriculum</a>
+      </li>
+    </ul>
+
+    <div class="tab-content clearfix">
+     <div class="tab-pane active" id="1b">
+      <span style="color: #000000;">
+
+        <ul class="subs" style="padding-left: 1em;">
+          <li>Learn SQL, R, SAS, Python, Business Analytics & Machine Learning in this comprehensive specialization course</li>
+          <li>Learn easily at your <strong>own time and pace from anywhere. Enrol and start learning immediately!</strong></li>
+          <li>Learn through <strong>150 hours of online class recorded videos</strong> and 150 hours of assignments & projects</li>
+          <li><strong>Get all your doubts and queries cleared by faculty</strong> through forums, emails and scheduled calls</li>
+          <li><strong>Get 24x7, life-time access</strong> to recorded classes and course material on our learning management system. No time limits or deadlines!</li>
+          <li><strong>Get certified</strong> by us after course completion based on project evaluation</li>
+          <li>Get career assistance post certification to get into a job in data science</li> 
+          <li>Download the free SQL, R, SAS & Python softwares on your own computer to practice 24x7x365</li>
+        </ul>
+<!--<b>Fees:</b> <span style="color: #ff0000"><del> Rs.50,000/- or USD 910</del> Pay Rs. 34,990/- or USD 565 only (plus GST) till 3rd June! </span> Post 28th Feb fees increase by 20%.<br>
+So enrol Now and save money!!
+<br><br>-->
+<a target="_blank" class="button new" href="">
+  <button class="btn btn-primary">Enroll Now</button>            
+</a>
+<br><br>
+
+<!--
+We offer a <strong>full refund</strong> up to 3 days post your enrolment if you would like to cancel, though with such a good deal we wonder who would!
+<br><br>
+-->
+</span>
+
+
+
+</div>
+<div class="tab-pane" id="2b">
+
+  <style> 
+  table {
+    width:100%;
+    border:1px solid #ddd;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-right-width:0;
+    border-bottom-width:0;
+  }
+  table-new {
+    width:100%;
+    border:10px solid #ddd;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-right-width:10px;
+    border-bottom-width:10px;
+  }
+  thead {
+    background-color:#eee;
+    color:#555;
+    font-size:1em;
+  }
+  th,td {
+    padding:5px;
+    border:1px solid #ddd;
+    border-top-width:0;
+    border-left-width:0;
+  }
+  td, th {
+    text-align:left;
+  }
+
+
+</style>
+
+<table width="580" border="1" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="337">
+        <p align="center" style="color:#007dc4" ;=""><b>Topic</b></p>
+      </td>
+      <td width="296">
+        <p align="center" style="color:#007dc4" ;=""><b>What does it mean?</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" width="580">
+        <p align="center" style="color:#007dc4" ;=""><b>Introduction to business analytics</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="337">
+        <ul style="padding-left: 1em;">
+          <li>What is analytics and why is it so important?</li>
+          <li>Applications of analytics</li>
+          <li>Different kinds of analytics</li>
+          <li>Various analytics tools</li>
+          <li>Analytics project methodology</li>
+          <li>Case study</li>
+        </ul>
+      </td>
+      <td width="296">In this section we shall provide you an overview into the world of analytics. You will learn about the various applications of analytics, how companies are using analytics to prosper and study the analytics cycle.</td>
+    </tr>
+    <tr>
+      <td colspan="2" width="580">
+        <p align="center" style="color:#007dc4" ;=""><b>Fundamentals of R </b></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="337">
+        <ul style="padding-left: 1em;">
+          <li>Installation of R &amp; R Studio</li>
+          <li>Getting started with R</li>
+          <li>Basic and Advanced Data types in R</li>
+          <li>Variable operators in R</li>
+          <li>Working with R data frames</li>
+          <li>Reading and writing data files to R</li>
+          <li>R functions and loops</li>
+          <li>Special utility functions</li>
+          <li>Merging and sorting data</li>
+          <li>Practice assignment</li>
+        </ul>
+      </td>
+      <td width="296">R is the most popular software/language for data management &amp; statistical analysis of data. It is free and open source. This module is all about learning how to manage and manipulate data and datasets, the very first step of analytics. We shall teach you how to use the R language to work with data using a case study.</td>
+    </tr>
+    <tr>
+      <td colspan="2" width="580">
+        <p align="center" style="color:#007dc4" ;=""><b>Univariate statistics in R </b></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="337">
+        <ul style="padding-left: 1em;">
+          <li>Summarizing data, measures of central tendency</li>
+          <li>Measures of data variability &amp; distributions</li>
+          <li>Using R language to summarize data</li>
+          <li>Practice assignment</li>
+        </ul>
+      </td>
+      <td width="296">This is where you shall learn how to start understanding the story your data is narrating by summarizing the data, checking its variability and shape. We shall take you through various ways of doing this using the R language and also solve a real-world case study</td>
+    </tr>
+    <tr>
+      <td colspan="2" width="580">
+        <p align="center" style="color:#007dc4" ;=""><b>Data visualization in R</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="337">
+        <ul style="padding-left: 1em;">
+          <li>Need for data visualization</li>
+          <li>Components of data visualization</li>
+          <li>Utility and limitations</li>
+          <li>Introduction to grammar of graphics</li>
+          <li>Using the ggplot2 package in R to create visualizations</li>
+          <li>Practice assignment</li>
+        </ul>
+      </td>
+      <td width="296">Data visualization is extremely important to understand what the data is saying and gain insights in just one glance. Visualization of data is a strong point of the R software and you will learn the same in this module.</td>
+    </tr>
+    <tr>
+      <td colspan="2" width="580">
+        <p align="center" style="color:#007dc4" ;=""><b>Hypothesis testing and ANOVA in R </b></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="337">
+        <ul style="padding-left: 1em;">
+          <li>Introducing statistical inference</li>
+          <li>Estimators and confidence intervals</li>
+          <li>Central Limit theorem</li>
+          <li>Parametric and non-parametric statistical tests</li>
+          <li>Analysis of variance (ANOVA)</li>
+          <li>Case study</li>
+        </ul>
+      </td>
+      <td width="296">With 95% confidence we can say that there is a 75% chance, people visiting this site thrice will enroll for the course :). In this module, you learn how to create a hypothesis, statistically test it and validate it through data and present it with clear and formal numbers to support decision making.</td>
+    </tr>
+    <tr>
+      <td colspan="2" width="580">
+        <p align="center" style="color:#007dc4" ;=""><b>Data preparation using R</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="337">
+        <ul style="padding-left: 1em;">
+          <li>Needs &amp; methods of data preparation</li>
+          <li>Handling missing values</li>
+          <li>Outlier treatment</li>
+          <li>Transforming variables</li>
+          <li>Derived variables</li>
+          <li>Binning data</li>
+          <li>Modifying data with Base R</li>
+          <li>Data processing with dplyr package</li>
+          <li>Using SQL in R</li>
+          <li>Practice assignment</li>
+        </ul>
+      </td>
+      <td width="296">Real world data is rarely going to be given to you perfect on a platter. It will always be dirty with missing data points, incorrect data, variables needing to be changed or created in order to analyze etc. A typical analytics project will have 60% of its time spent on preparing data for analysis. This is a crucial process as properly cleaned data will result in more accurate and stable analysis. We shall teach you all the techniques required to be successful in this aspect.</td>
+    </tr>
+    <tr>
+      <td colspan="2" width="580">
+      </td></tr><tr>
+        <td colspan="2" width="580">
+          <p align="center" style="color:#007dc4" ;=""><b>Introduction to SAS</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="337">
+          <ul style="padding-left: 1em;">
+            <li>What is the SAS software?</li>
+            <li>Why is it used?</li>
+            <li>SAS GUI layout</li>
+            <li>Components of a SAS program</li>
+            <li>SAS libraries and library referencing</li>
+            <li>SAS datasets &amp; variables</li>
+            <li>Hands-on practice</li>
+          </ul>
+        </td>
+        <td width="296">In this section we shall provide you an overview into the SAS software and the SAS language.</td>
+      </tr>
+      <tr>
+        <td colspan="2" width="580">
+          <p align="center" style="color:#007dc4" ;=""><b>Accessing data in SAS</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="337">
+          <ul style="padding-left: 1em;">
+            <li>Creating SAS datasets</li>
+            <li>Referencing SAS files</li>
+            <li>Reading SAS datasets</li>
+            <li>Read/Import raw data files in SAS</li>
+            <li>INPUT statement and its components</li>
+            <li>Infile, Informat statements and Proc Import</li>
+            <li>Reading delimited data</li>
+            <li>Various options while importing files</li>
+            <li>Combine SAS datasets using DATA step</li>
+            <li>Hands-on practice</li>
+          </ul>
+        </td>
+        <td width="296">In this module you will learn how to read a SAS data file and import or read into SAS any raw data file for eg: an excel file or a csv file.</td>
+      </tr>
+      <tr>
+        <td colspan="2" width="580">
+          <p align="center" style="color:#007dc4" ;=""><b>Managing Data in SAS</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="337">
+          <ul style="padding-left: 1em;">
+            <li>Investigate SAS datasets using basic Procs</li>
+            <li>Sorting observations</li>
+            <li>Conditional execution of SAS statements</li>
+            <li>Assignment statements in DATA step</li>
+            <li>Variable attribute modification</li>
+            <li>Using BY statement to create totals and sub-totals</li>
+            <li>Various SAS functions to manipulate &amp; convert data</li>
+            <li>Merging datasets</li>
+            <li>Hands-on practice</li>
+          </ul>
+        </td>
+        <td width="296">This is where you shall learn how to manage and manipulate data using SAS to meet business requirements</td>
+      </tr>
+      <tr>
+        <td colspan="2" width="580">
+          <p align="center" style="color:#007dc4" ;=""><b>Advanced SAS</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="337">
+          <ul style="padding-left: 1em;">
+            <li>PROC SQL for ETL in SAS</li>
+            <li>Writing SAS Macros</li>
+            <li>Hands-on practice</li>
+          </ul>
+        </td>
+        <td width="296">This is where you shall learn advanced ways to manage and work with data using SAS </td>
+      </tr>
+      <tr>
+        <td colspan="2" width="580">
+          <p align="center" style="color:#007dc4; font-size: 15px" ;=""><b>Predictive analytics in R </b></p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" width="580">
+          <p align="center" style="color:#007dc4" ;=""><b>1.</b><b> Correlation and Linear regression</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="337">
+          <ul style="padding-left: 1em;">
+            <li>Correlation</li>
+            <li>Simple linear regression</li>
+            <li>Multiple linear regression</li>
+            <li>Model diagnostics and validation</li>
+            <li>Case study</li>
+          </ul>
+        </td>
+        <td width="296">A statistical model is the core of predictive analytics and regression is one of the most powerful tools for making predictions by finding patterns in data. You shall learn the basic of regression modelling hands-on through real world cases</td>
+      </tr>
+      <tr>
+        <td colspan="2" width="580">
+          <p align="center" style="color:#007dc4" ;=""><b>2.</b><b> Logistic regression </b></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="337">
+          <ul style="padding-left: 1em;">
+            <li>Moving from linear to logistic regression</li>
+            <li>Model assumptions and Odds ratio</li>
+            <li>Model assessment and gains table</li>
+            <li>ROC curve and KS statistic</li>
+            <li>Case study</li>
+          </ul>
+        </td>
+        <td width="296">Logistic regression is the work-horse of the predictive analytics world.  It is used to make predictions in cases where the outcomes are dual in nature i.e. an X or Y scenario where we need to predict if X will be the case or will Y, given some data. This is a must-know technique and we shall make you comfortable with it through real world problems.</td>
+      </tr>
+      <tr>
+        <td colspan="2" width="580">
+          <p align="center" style="color:#007dc4" ;=""><b>3.</b><b> Segmentation for marketing analytics</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="337">
+          <ul style="padding-left: 1em;">
+            <li>Need for segmentation</li>
+            <li>Criterion of segmentation</li>
+            <li>Types of distances</li>
+            <li>Clustering algorithms</li>
+            <li style="list-style-type:none"><ul style="padding-left: 1em;"><li>Hierarchical clustering</li>
+              <li>K-means clustering</li></ul></li>
+              <li>Deciding number of clusters</li>
+              <li>Case study</li>
+            </ul>
+          </td>
+          <td width="296">Learn why and how to statistically divide a broad customer market into various segments of customers who are similar to each other so as to be able to better target and meet their needs in a cost effective manner. This is one of the most essential techniques in marketing analytics.</td>
+        </tr>
+        <tr>
+          <td colspan="2" width="580">
+            <p align="center" style="color:#007dc4" ;=""><b>4.</b><b> Time series forecasting</b></p>
+          </td>
+        </tr>
+        <tr>
+          <td width="337">
+            <ul style="padding-left: 1em;">
+              <li>What are time-series?</li>
+              <li>Need for forecasting</li>
+              <li>Trends, seasons, cycles</li>
+              <li>Exponential smoothing-Holt Winters method</li>
+              <li>ARIMA</li>
+              <li> Case Study</li>
+            </ul>
+          </td>
+          <td width="296">The ability to forecast into the future is very important for any business and it is necessary to have as accurate a forecasting as possible for corporate planning for finance, sales, marketing, strategy etc.  In this module learn the techniques of forecasting without being mis-led by seasonal and cyclical impacts.</td>
+        </tr>
+        <tr>
+          <td colspan="2" width="580">
+            <p align="center" style="color:#007dc4" ;=""><b>5.</b><b> Decision Trees</b></p>
+          </td>
+        </tr>
+        <tr>
+          <td width="337">
+            <ul style="padding-left: 1em;">
+              <li>What are decision trees?</li>
+              <li>Entropy</li>
+              <li>Gini impurity index</li>
+              <li>Decison trees algorithms</li>
+              <li style="list-style-type:none"><ul style="padding-left: 1em;"><li>ID3</li>
+                <li>C4.5</li>
+                <li>CART</li>
+                <li>CHAID</li>
+                <li>Regression trees</li></ul></li>
+              </ul>
+            </td>
+            <td width="296">Decision trees are one of the most popular classification and prediction methods for helping in decision making. Learn the various decision tree algorithms and learn how to create a decision tree model.</td>
+          </tr>                                                                                                       <tr>
+            <td colspan="2" width="580">
+              <p align="center" style="color:#007dc4; font-size: 15px" ;=""><b>Predictive analytics in SAS </b></p>
+            </td>
+          </tr><tr>
+            <td width="337">
+              <ul style="padding-left: 1em;">
+                <li>Univariate statistics</li>
+                <li>Hypothesis testing &amp; Anova</li>
+                <li>Linear regression</li>
+                <li>Logistic regression</li>
+                <li>Clustering</li>
+                <li>Hands-on practice</li>
+              </ul>
+            </td>
+            <td width="296">In this module you will learn the SAS codes for predictive modeling</td>                                                      </tr>        
+            <tr>
+              <td rowspan="2" width="337" style="color:#007dc4" ;=""><b>Solving an actual business problem through analytics – Simulating an analytics project</b></td>
+              <td rowspan="2" width="296">Simulation of an actual analytics project where you shall be completely hands-on and you will understand how everything you have learnt so far comes together to solve a business problem through analytics</td>
+            </tr>
+            <tr>
+              <td colspan="2" width="580">
+                <p align="center" style="color:#007dc4" ;=""><b>Introduction to Data Science</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td width="337">
+                <ul style="padding-left: 1em;">
+                  <li>What is data science and why is it so important?</li>
+                  <li>Applications of data science</li>
+                  <li>Various data science tools</li>
+                  <li>Data Science project methodology</li>
+                  <li>Tool of choice-Python: what &amp; why?</li>
+                  <li>Case study</li>
+                </ul>
+              </td>
+              <td width="450">In this section we shall provide you an overview into the world of data science &amp; machine learning. You will learn about the various applications of data science, how companies from all sort of domains are solving their day to day to long term business problems. We’ll learn about required skill sets of a data scientist which make them capable of filling up this vital role. Once the stage is set and we understand where we are heading we discuss why Python is the tool of choice in data science. </td>
+            </tr>
+            <tr>
+              <td colspan="2" width="580">
+                <p align="center" style="color:#007dc4" ;=""><b>Introduction to Python</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td width="337">
+                <ul style="padding-left: 1em;">
+                  <li>Installation of Python framework and packages: Anaconda &amp; pip</li>
+                  <li>Writing/Running python programs using Spyder Command Prompt</li>
+                  <li>Working with Jupyter notebooks</li>
+                  <li>Creating Python variables</li>
+                  <li>Numeric , string and logical operations</li>
+                  <li>Data containers : Lists , Dictionaries, Tuples &amp; sets</li>
+                  <li>Practice assignment</li>
+                </ul>
+              </td>
+              <td width="450">Python is one of the most popular &amp; powerful languages for data science used by most top companies like Facebook, Amazon, Google, Yahoo etc. It is free and open source. This module is all about learning how to start working with Python. We shall teach you how to use the Python language to work with data.</td>
+            </tr>
+            <tr>
+              <td colspan="2" width="580">
+                <p align="center" style="color:#007dc4" ;=""><b>Iterative Operations &amp; Functions in Python</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td width="337">
+                <ul style="padding-left: 1em;">
+                  <li>Writing for loops in Python</li>
+                  <li>While loops and conditional blocks</li>
+                  <li>List/Dictionary comprehensions with loops</li>
+                  <li>Writing your own functions in Python</li>
+                  <li>Writing your own classes and functions</li>
+                  <li>Practice assignment</li>
+                </ul>
+              </td>
+              <td width="450">This is where you shall learn the functionalities and powerful capabilities of Python that will make it easy for you to work with data and set the stage for using Python for machine learning &amp; data science.</td>
+            </tr>
+            <tr>
+              <td colspan="2" width="580">
+                <p align="center" style="color:#007dc4" ;=""><b>Data summary &amp; visualization in Python</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td width="337">
+                <ul style="padding-left: 1em;">
+                  <li>Need for data summary &amp; visualization</li>
+                  <li>  Summarising numeric data in pandas</li>
+                  <li>Summarising categorical data</li>
+                  <li>Group wise summary of mixed data</li>
+                  <li>Basics of visualisation with ggplot &amp; Seaborn</li>
+                  <li>Inferential visualisation with Seaborn</li>
+                  <li>Visual summary of different data combinations</li>
+                  <li>Practice assignment</li>
+                </ul>
+              </td>
+              <td width="450">Data visualization is extremely important to understand what the data is saying and gain insights in just one glance. Visualization of data is a strong point of the Python software using the latest ggplot &amp; Seaborn packages and you will learn the same in this module.</td>
+            </tr>
+            <tr>
+              <td colspan="2" width="580">
+                <p align="center" style="color:#007dc4" ;=""><b>Data Handling in Python using NumPy &amp; Pandas</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td width="337">
+                <ul style="padding-left: 1em;">
+                  <li>Introduction to NumPy arrays, functions &amp; properties</li>
+                  <li>Introduction to Pandas &amp; data frames</li>
+                  <li>Importing and exporting external data in Python</li>
+                  <li>Feature engineering using Python</li>
+                </ul>
+              </td>
+              <td width="450">Python is a very versatile language and in this module we expand on its capabilities related to data handling. Focusing on packages numpy and pandas we learn how to manipulate data which will be eventually useful in converting raw data suitable for machine learning algorithms.</td>
+            </tr>
+            <tr>
+              <td colspan="2" width="580">
+                <p align="center" style="color:#007dc4; font-size: 15px" ;=""><b>Data Science &amp; Machine Learning in Python</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" width="580">
+                <p align="center" style="color:#007dc4" ;=""><b>Machine Learning Basics</b></p>
+              </td>
+            </tr>
+            <tr>
+              <td width="337">
+                <ul style="padding-left: 1em;">
+                  <li>Converting business problems to data problems</li>
+                  <li>Understanding supervised and unsupervised learning with examples</li>
+                  <li>Understanding biases associated with any machine learning algorithm</li>
+                  <li>Ways of reducing bias and increasing generalisation capabilites</li>
+                  <li>Drivers of machine learning algorithms</li>
+                  <li>Cost functions</li>
+                  <li>Brief introduction to gradient descent</li>
+                  <li>Importance of model validation</li>
+                  <li>Methods of model validation</li>
+                  <li>Cross validation &amp; average error</li>
+                </ul>
+              </td>
+              <td width="450">In this module we understand how we can transform our business problems to data problems so that we can use machine learning algos to solve them. We will further get into discovering what categories of business problems and subsequently machine learning algos are there. Then we will get updated on methodologies associated with solving such problems. These methodologies will form basis of techniques we learn ahead in the course. We’ll wrap up this module with discussion on importance and methods of validation of our results.
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" width="580">
+              </td></tr><tr>
+                <td colspan="2" width="580">
+                  <p align="center" style="color:#007dc4" ;=""><b>Generalised Linear Models in Python</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="337">
+                  <ul style="padding-left: 1em;">
+                    <li>Linear Regression</li>
+                    <li>Regularisation of Generalised Linear Models</li>
+                    <li>Ridge and Lasso Regression</li>
+                    <li>Logistic Regression</li>
+                    <li>Methods of threshold determination and performance measures for classification score models</li>
+                    <li>Case Study</li>
+                  </ul>
+                </td>
+                <td width="450">We start with implementing machine learning algorithms in this module. We also get exposed to some important concepts related to regression and classification which we will be using in the later modules as well. Also this is where we get introduced to scikit-learn, the legendary python library famous for its machine learning prowess.<br><br>
+
+                  <b>Case Studies:</b> 
+                  <ol style="padding-left: 1em;"><li><b>Automate lender &amp; borrower matching through prediction of loan interest rates</b> - In this case study, we try to automate the process of lender and borrower matching for a fintech company by predicting interest rates offered.</li>
+                    <li><b>Classify customers based on revenue potential for a wealth management firm</b>- In this classification case study, we help a financial institution to predict which one of their customers are going to fall in high revenue grid so that they can be given selective discounts for customer acquisition in a highly competitive industry of wealth management.</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" width="580">
+                  <p align="center" style="color:#007dc4" ;=""><b>Tree Models using Python</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="337">
+                  <ul style="padding-left: 1em;">
+                    <li>Introduction to decision trees</li>
+                    <li>Tuning tree size with cross validation</li>
+                    <li>Introduction to bagging algorithm</li>
+                    <li>Random Forests</li>
+                    <li>Grid search and randomized grid search</li>
+                    <li>  ExtraTrees (Extremely Randomised Trees)</li>
+                    <li>Partial dependence plots</li>
+                    <li>Case Study &amp; Assignment</li>
+                  </ul>
+                </td>
+                <td width="450">In this module you will learn a very popular class of machine learning models which are rule based tree structures also known as Decision Trees. We'll examine the biased nature of these models and learn how to use bagging methodologies to arrive at a new technique known as Random Forest to analyse data.<br><br>
+
+                  <b>Case Studies:</b>
+                  In the class we continue with the case studies taken in previous module of simple linear models and see how the tree based models compare in terms of performance in comparison to the linear models.
+
+                  In take home exercises we have two case studies: 
+                  <ol style="padding-left: 1em;"><li><b> Capture risks associated with micro loans:</b> In the 1st exercise you will work on micro loans. Its inherently risky to hand out micro loans because of lack of checks in the natural process of micro loans. and in this case study we try to capture risk associated with these micro loans.</li>
+                    <li><b>How do the tech specifications of a vehicle impact its emissions?</b> In the 2nd case study we find out effect of technical design specification of a vehicle on average emission and thus its environmental impact.</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" width="580">
+                  <p align="center" style="color:#007dc4" ;=""><b>Boosting Algorithms using Python</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="337">
+                  <ul style="padding-left: 1em;">
+                    <li>Concept of weak learners</li>
+                    <li>Introduction to boosting algorithms</li>
+                    <li>Adaptive Boosting</li>
+                    <li>Extreme Gradient Boosting (XGBoost)</li>
+                    <li>Case Study &amp; assignment</li>
+                  </ul>
+                </td>
+                <td width="450">Want to win data science contest on Kaggle or data hackathons or be known as a top data scientist? Then learning boosting algorithms is a must as they provide a very powerful way of analysing data and solving hard to crack problems.<br><br>
+                  <b>Case Studies:</b>
+                  <ol style="padding-left: 1em;"><li><b>Save lives by predicting health issues in diabetics: </b>A health care system in a state is struggling with poor detection of severity of health issues in diabetic people. This results in need for re-hospitalisation and many unfortunately not in time. Find out if boosting algos can save lives!</li>
+
+                    <li><b>Predicting annual income based on census data:</b> In the take home exercise, find out whether someone is going to have annual income higher than a certain amount just by simple census data and thus identifying potential fraud cases when it comes to filing their taxes.</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" width="580">
+                  <p align="center" style="color:#007dc4" ;=""><b>Support Vector Machines (SVM) &amp; kNN in Python</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="337">
+                  <ul style="padding-left: 1em;">
+                    <li>Introduction to idea of observation based learning</li>
+                    <li>Distances and similarities</li>
+                    <li>k Nearest Neighbours (kNN) for classification</li>
+                    <li>Brief mathematical background on SVM/li&gt;
+                    </li><li>Regression with kNN &amp; SVM</li>
+                    <li>Case Study</li>
+                  </ul>
+                </td>
+                <td width="450">We step in a powerful world of “observation based algorithms” which can capture patterns in the data which otherwise go undetected. We start this discussion with KNN which is fairly simple. After that we move to SVM which is very powerful at capturing non-linear patterns in the data.
+                  <br><br>
+                  <b>Case Study:</b>
+                  Since KNN and SVM take a lot of processing time, we have kept the class discussion case study simple. Same implementation steps can be used to work on any complex business problem as well.
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" width="580">
+                  <p align="center" style="color:#007dc4" ;=""><b>Unsupervised learning in Python</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="337">
+                  <ul style="padding-left: 1em;">
+                    <li>Need for dimensionality reduction</li>
+                    <li>Principal Component Analysis (PCA)</li>
+                    <li>Difference between PCAs and Latent Factors</li>
+                    <li>Factor Analysis</li>
+                    <li>Hierarchical, K-means &amp; DBSCAN Clustering </li>
+                    <li>Case study</li>
+                  </ul>
+                </td>
+                <td width="450">Many machine learning algos become difficult to work with when dealing with many variables in the data. We will learn methods which help solve this problem and also clustering techniques.
+
+                  <b>Case Studies:</b>
+                  <ol style="padding-left: 1em;"><li><b>Understanding impact of cash assistance programs in New York:</b> To understand PCA, we take up data of cash assistance programs in New York. This has more than 60 variables. We’ll see how can we reduce the size of the data.</li>
+
+                    <li><b>Car Survey Data:</b> We take up car survey data which contains technical &amp; price detail of vehicles through 11 numeric variables. We’ll see if these 11 variables represent any hidden factors representing different properties of a vehicle.</li>
+                    <li><b>Pricing wines based on chemical properties:</b> For K-Means we take data containing chemical properties of 4000+ white wines and examine whether we can find segments of wines based on their chemical compositions.</li>
+                    <li><b>Customer spend data at a retail chain:</b> For DBSCAN we see how DBSCAN can be used for anomaly detection using expense data of customers from a retail chain.</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" width="580">
+                  <p align="center" style="color:#007dc4" ;=""><b>Text Mining in Python</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="337">
+                  <ul style="padding-left: 1em;">
+                    <li>Gathering text data using web scraping with urllib</li>
+                    <li>Processing raw web data with BeautifulSoup</li>
+                    <li>Interacting with Google search using urllib with custom user agent</li>
+                    <li>Collecting twitter data with Twitter API</li>
+                    <li>Naive Bayes Algorithm</li>
+                    <li>Feature Engineering with text data</li>
+                    <li>Sentiment analysis</li>
+                    <li>Case study</li>
+                  </ul>
+                </td>
+                <td width="450">Text data forms a big chunk of data available in the world today. Analysing text data can give a business very powerful insights to take advantage of. Python provides very useful ways to scrape data from the web or extract data from social media sites using APIs and then analyse the data.
+                  <b>Case Studies:</b>
+                  <ol style="padding-left: 1em;"><li>Live demonstrations of web scraping and data cleaning</li>
+                    <li>Making a portfolio tracking tool using Yahoo finance with Python</li>
+                    <li>Tagging an SMS as SPAM or NON-SPAM based on its content algorithmically with Naive Bayes</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" width="580">
+                  <p align="center" style="color:#007dc4" ;=""><b>Version Control using Git and Interactive Data Products</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="337">
+                  <ul style="padding-left: 1em;">
+                    <li>Need and Importance of Version Control</li>
+                    <li>Setting up git and github accounts on local machine</li>
+                    <li>Creating and uploading GitHub Repos</li>
+                    <li>Push and pull requests with GitHub App</li>
+                    <li>Merging and forking projects</li>
+                    <li>Introduction to Bokeh charts and plotting</li>
+                    <li>Examples of static and interactive data products</li>
+                    <li>Case study</li>
+                  </ul>
+                </td>
+                <td width="450">We finish the course with discussion on two very important aspects of a data scientist’s work. First is version control which enables you to work on large projects with multiple team members scattered across the globe. We learn about git and most widely used public platform version control that is GitHub. Second is making a quick prototype of your solutions as an interactive visualisation in the form of standalone or hosted web pages. We introduce you to Bokeh, an evolving library in python which has all the tools that you’ll need to make small prototypes of data products which can be scaled later.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row benefits">    
+    <div class="container bnf">
+      <h2>Benefits of taking the Data Science specialization course</h2>
+      <span style="color: #000000;">
+        <ul class="subs-2">
+          <li>Learn data science including predictive modeling & cutting edge machine learning techniques and how & where to use them</li>
+          <li>Learn the SQL, R, SAS & Python softwares hands-on to manage, manipulate, cleanse and analyze data</li>
+          <li>You will not just learn the techniques and tools in isolation but will combine and apply them to derive business insights from raw data</li>
+          <li>Data Science talent demand is much more than the available skilled supply. Become employable in this fast growing new age field by demonstrating the skills learnt through this course</li>
+          <li>Use these new-age skills in your existing role to become more efficient and effective</li>
+        </ul>
+      </span>
+      <br>
+<br>
+  <h2>Data Science Corporate Training</h2><br>
+  <span style="color: #000000;">
+    <p>Your employees can be trained on this data science course in Mumbai, Hyderabad, Bangalore, Delhi, Kolkata, Pune, Chennai or anywhere else as per your requirements.
+  </span>
+  <br>
+  <br>
+
+  <h2>Who should take this course</h2><br>
+  <span style="color: #000000;">
+    <p>This course is for students pursuing their graduation/post-graduation and for working professionals who have completed their graduation in any field. There are no other prerequisites but you do need to have a quantitative bent of mind. For those who hate maths or numbers, while we shall try to make you as comfortable as possible, the data science field itself may prove to be a challenge for you.</p>
+  </span>
+
+</div>      
+</div>
+
+</div>    
+
+<!--Courses-->
+
+<!-- footer --> 
+  <footer>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <h3 class="text-uppercase mb-3">Address</h3>
+          <address>
+            <p><strong>Headquarters:</strong></p>
+            <p class="mb-3" id="address-details">Level 7, Maximus Towers</p>
+            <p class="mb-3" id="address-details">Building 2A,</p>
+            <p class="mb-3" id="address-details">Mindspace Complex,</p>
+            <p class="mb-3" id="address-details">Hitech City, Hyderabad 500081 India</p>
+            <p id="phone-style"><strong>Phone</strong> : +91 40-40339900</p>
+            <p><strong>Email</strong> : <a href="mailto:info@example.com">shilpa.singh@chgs.in</a></p>
+            <p><strong>Fax</strong> : +91 40-40339898 </p>
+          </address>
+        </div>
+        <div class="col-lg-2 col-md-6 mt-lg-0 mt-sm-0 mt-4 p-md-0">
+          <h3 class="text-uppercase mb-3">Site Map</h3>
+          <div class="links">
+            <a class="pt-2 text-capitalize" href="#"><i class="fas fa-angle-right"></i> Navigation</a>
+            <a class="pt-2 text-capitalize" href="#"><i class="fas fa-angle-right"></i> Documentation</a>
+            <a class="pt-2 text-capitalize" href="#"><i class="fas fa-angle-right"></i> Business</a>
+            <a class="pt-2 text-capitalize" href="#"><i class="fas fa-angle-right"></i> Technical support</a>
+            <a class="pt-2 text-capitalize" href="#"><i class="fas fa-angle-right"></i> 24/7 Service</a>
+            <a class="pt-2 text-capitalize" href="#"><i class="fas fa-angle-right"></i> Feedback</a>
+          </div>  
+        </div>
+        <div class="col-lg-3 col-md-6 mt-lg-0 mt-4">
+          <h3 class="text-uppercase mb-3">Recent posts</h3>
+          <div class="posts">
+            <p class="pt-2">lorem ipsum dolor sit amet
+              <span class="font-italic">31st march, 2018.</span></p>
+              <p class="py-2 my-2 middle">lorem ipsum dolor sit amet
+                <span class="font-italic">31st march, 2018.</span></p>
+                <p class="pt-2">lorem ipsum dolor sit amet
+                  <span class="font-italic">31st march, 2018.</span></p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
+                <h3 class="text-uppercase mb-3">Social Links</h3>
+                <ul class="social mt-lg-0 mt-3">
+                  <li class="mx-2"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fas fa-rss"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fab fa-vk"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
+                  <li class="mx-2"><a href="#"><span class="fab fa-yahoo"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- footer -->
+
+      <!-- js-scripts -->   
+
+      <!-- js -->
+      <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+      <script type="text/javascript" src="../js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
+      <!-- //js --> 
+
+
+      <!-- start-smoth-scrolling -->
+      <script src="js/SmoothScroll.min.js"></script>
+      <script type="text/javascript" src="js/move-top.js"></script>
+      <script type="text/javascript" src="js/easing.js"></script>
+      <script type="text/javascript">
+        jQuery(document).ready(function($) {
+          $(".scroll").click(function(event){   
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+          });
+        });
+      </script>
+      <!-- here stars scrolling icon -->
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $('.nav-pills > li').click(function()
+          {
+            $('.nav-pills > li').removeClass('active');    
+            $(this).addClass('active');    
+            var $tab=$(this).data('href');
+            $('.tab-pane').removeClass('active');
+            $($tab).addClass('active');
+          });
+
+
+          $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+      </script>
+      <!-- //here ends scrolling icon -->
+      <!-- start-smoth-scrolling -->
+      <!-- //js-scripts -->
+
+    </body>
+    </html>
