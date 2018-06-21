@@ -1,21 +1,21 @@
 	@font-face {
 	font-family: Gotham m;
-	src: url(./fonts/GothamRounded-Medium.otf);
+	src: url(../css/fonts/GothamRounded-Medium.otf);
 	}
 		
 	@font-face {
 	font-family: Gotham b;
-	src: url(./fonts/GothamRounded-Bold.otf);
+	src: url(../css/fonts/GothamRounded-Bold.otf);
 	}
 	
 	@font-face {
 	font-family: Gotham t;
-	src: url(./css/fonts/GothamRoundedBook_21018.ttf);
+	src: url(../css/fonts/GothamRoundedBook_21018.ttf);
 	}
 		
 	@font-face {
 	font-family: Gotham l;
-	src: url(./css/fonts/GothamRounded-Book.otf);
+	src: url(../css/fonts/GothamRounded-Book.otf);
 	}	
 	
 	body
