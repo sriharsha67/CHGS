@@ -199,4 +199,11 @@ padding-left: 1em;
 font-size: 1.5em;
 font-family: Gotham l;	
 }
+#pre-req
+{
+padding:2em 0;
+background:url('../images/bg/prereq.jpg');
+background-attachment: fixed;
+background-size:cover;
+}
 /*Beginner Python and Math for data science Course Page*/
