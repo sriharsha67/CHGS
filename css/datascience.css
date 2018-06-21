@@ -60,6 +60,12 @@
 	background-size:cover;
 	background-attachment:fixed;
 	}
+
+	.list > li
+	{
+		padding:.5em 0;
+		font-size:1.1em;
+	}
 		
 	#ds_courses
 	{
@@ -90,6 +96,12 @@
 	-o-transition:.25s linear all;
 	}
 	
+	.bold
+	{
+	font-family:Gotham b;	
+	}
+
+	
 	.sub-course:hover
 	{
 	box-shadow:0 0 10px 1px rgba(255,255,255,.8);
@@ -111,9 +123,80 @@
 	font-size:1.8em;
 	font-family:gotham b;
 	}
+	.chs_red
+	{
+	color:#ee242F !important;
+	}
 	.no-empty,body
 	{
 	margin:0 !important;
 	padding:0 !important;
 	}
 	
+
+/*Beginner Python and Math for data science Course Page*/
+#overview
+{
+background:#eee;	
+padding:4em 0;
+}
+
+.course_block
+{
+	max-width: 75rem;
+    margin:3em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;	
+	background:#fff;
+}
+
+.course_block > .content
+{
+	padding: 2em;
+}
+
+.content > h3
+{
+font-family:Gotham b;	
+}
+
+
+	.ds_sub
+	{
+	font-family:Gotham b;	
+	padding:1em 0;	
+	}
+
+.live
+{
+border-top:5px solid #212121;	
+margin:1em 0;
+font-family:Gotham m;
+}
+.live span:nth-child(1)
+{
+font-size:18px;
+background:#212121;
+padding:.35em;
+color:white;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+}
+.live span:nth-child(2)
+{
+font-size:18px;
+padding:.35em;
+color:white;
+}
+.dates > p
+{
+padding-left: 1em;
+font-size: 1.5em;
+font-family: Gotham l;	
+}
+/*Beginner Python and Math for data science Course Page*/
