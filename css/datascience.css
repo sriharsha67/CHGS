@@ -141,6 +141,11 @@ background:#eee;
 padding:4em 0;
 }
 
+#dates
+{
+padding:2em 0;	
+}
+
 .course_block
 {
 	max-width: 75rem;
@@ -206,4 +211,109 @@ background:url('../images/bg/prereq.jpg');
 background-attachment: fixed;
 background-size:cover;
 }
+
+.enroll
+					{
+					background:#ee242F;
+					color:white;
+					text-align:center;
+					padding:.5em 0;
+					font-family:gotham m;
+					font-size:1.2em;
+					margin:1em 0;
+					}
+					.sign_up
+					{
+					background:#1f5e85;
+					color:white;
+					text-align:center;
+					padding:.5em 0;
+					font-family:gotham m;
+					font-size:1.2em;
+					margin:1em 0;
+					}
+                    .white
+                    {
+                    color: white;
+                    }
+                    .content-box
+                    {
+                        background:#fff;  
+                        padding:1em; 
+                        border-radius:7px;
+                    }
+        .week h4
+        {
+        background-color: #eee;
+        color: #8a8a8a;
+        text-align:center;
+        padding:.5em 0;
+		font-family:Gotham b !important;
+        }
+		.week
+		{
+			background:#fff;
+			min-height:273px;
+			margin:1em 0;
+		}
+		#syllabus
+		{
+		background:#ee242f;	
+		padding:1em 0;
+		}
+		.week_content
+		{
+		padding:1em;
+		}
+		
+#interactive
+{
+padding:2em 0;
+background-color:#1f5e85;
+color:white;
+}
+.interact_icon
+{
+	margin-top: 6em;
+}
+.int_content
+{
+margin:2em 0;	
+}
+.int_content h5
+{
+font-family:gotham m;
+font-size:1em;
+}
+
+#onlineclass
+{
+background:#15415c;
+color:white;
+padding:3em 0;
+}
+
+.online_form
+{
+padding:0 1em;	
+}
 /*Beginner Python and Math for data science Course Page*/
+.panel-title a
+{
+font-family:Gotham b; 	
+color:#ee242f;
+}
+.panel-default > .panel-heading
+{
+background:#fff;	
+border:0px !important;
+}
+.panel-body
+{
+border:0px !important;	
+}
+.panel
+{
+border-top:1px solid #ccc;	
+border-bottom:1px solid #ccc;;	
+}
