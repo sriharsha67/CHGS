@@ -198,6 +198,14 @@ li.nav-item a:hover {
 	background-size: cover;
 }
 
+.carousel-item.item4 {
+	background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/intro-carousel/6.jpg) no-repeat;
+	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/intro-carousel/6.jpg) no-repeat;
+	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/intro-carousel/6.jpg) no-repeat;
+	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/intro-carousel/6.jpg) no-repeat;
+	background-size: cover;
+}
+
 /*.carousel-item.item4 {
 	background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/intro-carousel/1.jpg) no-repeat;
 	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/intro-carousel/1.jpg) no-repeat;
