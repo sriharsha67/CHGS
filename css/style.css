@@ -2152,3 +2152,8 @@ ul.rating li span.fas {
 {
     background-image:url(../images/big-data-strp.jpg) !important; 
 }
+
+.flex-control-nav.flex-control-paging
+{
+display:none;	
+}
