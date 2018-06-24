@@ -340,6 +340,7 @@ border-bottom:1px solid #ccc;;
 list-style:square;
 padding:.5em 0;
 color:white;
+margin-left:2em;
 }
 .side_menu ul > li > a
 	{
