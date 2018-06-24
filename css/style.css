@@ -661,7 +661,7 @@ a.w3_agile_vimeo:hover{
 }
 h3.heading {
     font-size: 45px;
-    font-weight: 200;
+    font-weight: 600;
     letter-spacing: 2px;
     color: #1b1b1b;
 }
@@ -684,7 +684,7 @@ h3.heading {
     font-size: 1.2em;
     text-align: justify;
     color: #333;
-    font-weight: 200;
+    font-weight: 500;
     letter-spacing: 2px;
     color: #1b1b1b;
 }
@@ -1097,19 +1097,20 @@ box-shadow:0 0 8px rgba(0,0,0,0.15);
 }
 .course_holder > .btn
 {
- margin:15px;   
+ margin:10px;   
 }
 .course_holder > .btn > a
 {
  color: #fff;   
 }
-.course_holder > h5
+.course_holder > a > h5
 {
-padding:10px 0 10px 10px;  
+padding:10px 10px 10px 10px;  
 font-size:.9em;
 font-weight:600;
-color:mediumvioletred;
+color:#333;
 border-bottom:1px solid #ccc;
+text-align: center;
 }
 .course img
 {
@@ -1117,8 +1118,12 @@ max-height:200px;
 }
 .course_desc p
 {
-padding:5px;    
-font-size:.9em;
+    padding: 10px;
+    text-align: justify;
+    font-size: .9em;
+    font-family: 'Raleway';
+    color: #333;
+    font-weight: 500;
 }
 .course_row
 {
@@ -1494,7 +1499,7 @@ address p a:hover {
 .collections h3 {
     color: #333;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 .client h5 {
@@ -1527,6 +1532,9 @@ ul.rating li span.fas {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
+.careers-intro h3{
+   font-weight: 600;
+}
 
 /*.careers-intro .career-motive{
     background: #919191 url(../images/motive.jpg) no-repeat;
@@ -1538,11 +1546,11 @@ ul.rating li span.fas {
 
 .careers-intro .intro{
     padding-top: 2em;
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
     text-align: justify;
     color: #333;
-    font-weight: 200;
+    font-weight: 500;
     letter-spacing: 2px;
 }
 
@@ -1557,8 +1565,8 @@ ul.rating li span.fas {
 }
 
 .careers-hiring h3.heading {
-    font-size: 45px;
-    font-weight: 200;
+    font-size: 40px;
+    font-weight: 600;
     letter-spacing: 2px;
     color: #1b1b1b;
     margin-bottom: 0 !important;
