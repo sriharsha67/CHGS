@@ -7,9 +7,10 @@
 <title>CHGS || statistics-for-data-science </title>
 
 <!-- Bootstrap -->
-<link href="../../css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link href="../../css/bootstrap3.css" rel="stylesheet">
 <link href="../../css/datascience.css" rel="stylesheet">
-<link href="../../css/style.css" rel="stylesheet">
+<!--<link href="../../css/style.css" rel="stylesheet">-->
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -125,7 +126,7 @@
 			<div class="course_block">
 				<div class="content">
 				<h3>Outcomes:</h3>
-<ul>
+<ul class="list">
 <li>An understanding of basic statistical hypothesis testing and confidence intervals.</li>
 <li>The ability to model data using well known statistical distributions, as well as handle data that is both continuous and categorical.</li>
 <li>The ability to perform linear regression and adjust for multiple hypothesis.</li>
@@ -716,12 +717,38 @@ Explore the formal definition of a confidence interval as well as its interpreta
   </div> 
 </div>
 </section>
-                
+<style>
+
+</style>
+<!--Side Menu-->      
+<div id="side_menu" class="side_menu">
+<div class="toggler">
+<i class="fa fa-th-list"></i>
+</div>
+<ul>
+	<li><a href="beginner-python-and-math-for-data-science.html">Beginner Python & Math for Data Science</a></li>
+	<li><a href="introduction-to-data-science.html">Introduction to Data Science</a></li>
+	<li><a href="statistics-for-data-science.html">Statistics for Data Science</a></li>
+	<li><a href="data-visualization-with-d3.html">Data Visualization with D3</a></li>
+	<li><a href="machine-learning-and-artificial-intelligence-principles.html">Machine Learning & Artificial Intelligence Principles</a></li>
+	<li><a href="deep-learning-with-tensorflow.html">Deep Learning with TensorFlow</a></li>
+</ul>
+</div>
+<!--Side Menu-->      
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="../../js/jquery-1.11.3.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="../../js/bootstrap.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('.toggler').click(function()
+{
+	$('#side_menu').toggleClass('active');
+});
+});
+</script>
 </body>
 </html>
