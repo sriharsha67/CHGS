@@ -7,9 +7,10 @@
 <title>CHGS || Data Visualization with D3</title>
 
 <!-- Bootstrap -->
-<link href="../../css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link href="../../css/bootstrap3.css" rel="stylesheet">
 <link href="../../css/datascience.css" rel="stylesheet">
-<link href="../../css/style.css" rel="stylesheet">
+<!-- <link href="../../css/style.css" rel="stylesheet"> -->
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,59 +23,42 @@
 <!--Header-->
 
 <header>
-	<div class="container agile-banner_nav">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			
-			<!-- <a class="navbar-brand" href="index.html">Career Corp <span class="display">Digital technology</span></a> -->
-			<a class="navbar-brand" href="index.html">
-				<img src="../../images/logo.png" alt="Logo">				
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+            <img src="../../images/logo.png" alt="Logo">
+        </a>
+      </div>
 
-			<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a href="../../index.html">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a href="../../about.html">About</a>
-					</li>
-					<li class="nav-item">
-						<a href="../../courses.html">Courses</a>
-					</li>
-					<li class="dropdown nav-item">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services
-							<!-- <b class="caret"></b> -->
-						</a>
-						<ul class="dropdown-menu agile_short_dropdown">
-							<li>
-								<a href="../../training">Training</a>
-							</li>
-							<li>
-								<a href="../../hr">HR</a>
-							</li>
-
-							<li>
-								<a href="../../IT">IT</a>
-							</li>
-							<li>
-								<a href="../../consulting">Consulting</a>
-							</li>
-						</ul>
-					</li>
-					<li class="nav-item">
-						<a href="../../careers.html">Careers</a>
-					</li>
-					<li class="nav-item">
-						<a href="../../contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>
-		  
-		</nav>
-	</div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="../../index.html" class="active">Home</a></li>
+          <li><a href="../../about.html" class="scroll">About</a></li>
+          <li><a href="../../courses.html" class="scroll">Courses</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<!--  <span class="caret"></span> --></a>
+            <ul class="dropdown-menu">
+              <li><a href="../../training/index.html">Training</a></li>
+              <li><a href="../../IT/index.html">IT</a></li>
+              <li><a href="../../HR/index.html">HR</a></li>
+              <li><a href="../../consulting/index.html">Consulting</a></li>
+            </ul>
+          </li>
+          <li><a href="../../careers.html" class="scroll">Careers</a></li>
+          <li><a href="../../contact.html" class="scroll">Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 </header>
 
 <!--Header-->
@@ -612,12 +596,36 @@ Since your computer is drawing the charts instead of you, making 100 charts is a
   </div> 
 </div>
 </section>
-                
+
+<!--Side Menu-->      
+<div id="side_menu" class="side_menu">
+<div class="toggler">
+<i class="fa fa-th-list"></i>
+</div>
+<ul>
+  <li><a href="beginner-python-and-math-for-data-science.html">Beginner Python & Math for Data Science</a></li>
+  <li><a href="introduction-to-data-science.html">Introduction to Data Science</a></li>
+  <li><a href="statistics-for-data-science.html">Statistics for Data Science</a></li>
+  <li><a href="data-visualization-with-d3.html">Data Visualization with D3</a></li>
+  <li><a href="machine-learning-and-artificial-intelligence-principles.html">Machine Learning & Artificial Intelligence Principles</a></li>
+  <li><a href="deep-learning-with-tensorflow.html">Deep Learning with TensorFlow</a></li>
+</ul>
+</div>
+<!--Side Menu--> 
+
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="../../js/jquery-1.11.3.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="../../js/bootstrap.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.toggler').click(function()
+{
+  $('#side_menu').toggleClass('active');
+});
+});
+</script>
 </body>
 </html>
