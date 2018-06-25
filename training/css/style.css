@@ -1521,10 +1521,11 @@ h4.text {
 }
 .agileinfo_footer_grid ul li{
 	list-style-type: none;
-    margin-bottom: 1em;
-    font-size: 1em;
+    margin-right: 1em;
+    font-size: 1.2em;
     line-height: 1.8em;
     color: #999;
+    display: inline-block;
 }
 .agileinfo_footer_grid .address-details{
   margin-bottom: 0 !important;
@@ -3291,7 +3292,12 @@ a.face_one i {
     font-size: 0.9em;
 }
 .agileinfo_footer_grid ul li {
-    font-size: 0.9em;
+    list-style-type: none;
+    margin-right: 1em;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    color: #999;
+    display: inline;
 }
 .w3agile_footer_copy p {
     line-height: 2.1;
@@ -3303,5 +3309,6 @@ a.face_one i {
 /*-- //Responsive --*/
 .kalp_intro
 {
-font-size:1.5em;	
+font-size:1.5em;
+text-align: justify; 
 }
