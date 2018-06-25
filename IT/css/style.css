@@ -3299,3 +3299,18 @@ a.face_one i {
 }
 }
 /*-- //Responsive --*/
+@media only screen and (max-width:768px)
+{
+.navbar-default .navbar-nav {
+    position: relative;
+    left: 50%;
+    transform: translateX(-15%);
+    top: 1.5em !important;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color:transparent;
+    background: #f8f8f8;
+    margin-top: 3em;
+}
+
+}

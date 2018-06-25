@@ -585,3 +585,126 @@ left:0;
 .course-detail-banner .form-container .form-data{
     color: #fff;
 }
+
+
+/*-- footer --*/
+/*footer
+{
+margin-top:2em;
+}*/
+footer h3{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+	color: #eee;
+}
+footer {
+    background: #222;
+}
+footer address #phone-style{
+    margin-top: 10px;
+}
+footer address .address-details{
+    margin-bottom: 0 !important;
+}
+footer p {
+    font-size: 15px;
+    color: #999;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+footer .posts p.middle {
+    border-top: 1px dotted #fff;
+    border-bottom: 1px dotted #fff;
+}
+footer p span {
+	display: block;
+    font-size: 15px;
+}
+.links a{
+	display:block;
+    color: #999;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.links i.fas {
+    margin-right: 2px;
+}
+.links a:hover{
+    color: #fff;
+}
+footer  form {
+    border: 1px solid #888;
+    width: 100%;
+    border-radius: 30px;
+}
+footer [type="email"] {
+    outline: none;
+    padding: 12px 25px;
+    color: #999;
+    font-size: 13px;
+    width: 85%;
+    border: none;
+    background: none;
+    letter-spacing: 1px;
+}
+button.btn1 {
+    color: #999;
+    border: none;
+    padding: 10px 0;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    float: right;
+    width: 15%;
+}
+address h4,address p strong {
+    font-size: 18px;
+    color: #bbb;
+    letter-spacing: 1px;
+    font-weight: 600;
+	text-decoration: underline;
+}
+address p {
+    font-size: 15px;
+    color: #929292;
+}
+address p a {
+    color: #999;
+}
+address p a:hover {
+    color: #fff;
+}
+.copyright p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #999;
+}
+.copyright p a {
+    color: #eee;
+}
+.copyright p a:hover {
+    color: #009688;
+}
+.copyright {
+    background: #1b1b1b;
+}
+.social li {
+    display: inline-block;
+}
+.social li a {
+    color: #999;
+    font-size: 15px;
+}
+.social li a:hover {
+    color: #fff;
+}
+
+/*-- footer --*/
