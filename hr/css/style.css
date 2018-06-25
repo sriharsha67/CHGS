@@ -48,7 +48,7 @@ h1,h2,h3,h4,h5,h6{
   overflow: hidden;
 }
 .hvr-underline-from-center:before {
-  content: "";
+  /*content: "";*/
   position: absolute;
   z-index: -1;
   left: 50%;
@@ -730,7 +730,7 @@ li.agileits-main {
 
 /*-- services --*/
 .services{
-  background:url(../images/se2.jpg) no-repeat center;
+  background: #DDD;
   background-size:cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
