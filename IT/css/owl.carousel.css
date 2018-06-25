@@ -63,7 +63,7 @@
 	margin: 5px 7px;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 0.5;
-	background: #fff;
+	background: #333;
 }
 
 .owl-theme .owl-controls .owl-page.active span,

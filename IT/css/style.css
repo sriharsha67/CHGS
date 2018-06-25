@@ -431,6 +431,12 @@ a:focus, a:hover {
 .specialty-grids-top {
     margin-top: 2em;
 }
+.specialty-grids-top p{
+    margin: 10px 0 10px;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: 400;
+}
 .specialty{
   padding: 3em 0;
   background: #FAFAFA;
@@ -508,8 +514,8 @@ background: none;
     font-weight: 600;
 }
 .service-box p {
-    color: #777;
-    font-size: 1em;
+    color: #333;
+    font-size: 1.2em;
     font-weight: 400;
     text-align: center;
     line-height: 1.9em;
@@ -1353,11 +1359,11 @@ color: #009688;
 /*--Test--*/
 
 .review {
-    background: url('../images/te1.jpg')no-repeat 0px 0px;
+    /*background: url('../images/te1.jpg')no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 h4.text {
     background: none;
@@ -1393,8 +1399,8 @@ h4.text {
     line-height: 2.2em;
     margin: 1em 0;
     padding: 22px 25px;
-    color: #eee;
-  background: rgba(165, 163, 163, 0.32);
+    color: #333;
+  background: rgba(165, 163, 163, 0.1);
 }
 .test-review img{
    border-radius: 50%;
