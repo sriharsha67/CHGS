@@ -370,6 +370,7 @@ line-height:50px;
 cursor:pointer;
 }
 
+/*
 .side_menu .toggler:before
 {
 position:absolute;
@@ -394,6 +395,7 @@ font-size:14px;
 bottom:-10px;
 left:0;
 }
+*/
 /*--/navigation --*/
 
 .navbar-default{
