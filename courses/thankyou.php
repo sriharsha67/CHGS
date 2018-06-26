@@ -13,19 +13,24 @@ die('Error establishing connection');
 }
 else
 {
+	
 $sql="INSERT INTO leads(firstname,lastname,email,mobile) VALUES('".$_POST['firstname']."','".$_POST['lastname']."','".$_POST['email']."','".$_POST['mobile']."')";
+
 $insert=mysqli_query($conn,$sql);
+
+mysqli_close($conn);
+
 if($insert)
 {
 echo 'Thank you, We will get back to you shortly.';  
 }
+
 else
 {
 echo 'Server is busy, please try again later';    
 }
+
 }
-    
-    
+
 }
-    
 ?>
