@@ -109,13 +109,14 @@
 		
 			<div class="col-md-6 mt-md-0 mt-4">
 				<div class="contact_right p-lg-5 p-4">
-					<form action="#" method="post">
+					<form id="contactForm" method="post">
 						<div class="w3_agileits_contact_left">
 							<h3 class="mb-3">Contact form</h3>
-							<input type="text" name="Name" placeholder="Your Name" required="">
-							<input type="email" name="Email" placeholder="Your Email" required="">
-							<input type="text" name="Phone" placeholder="Phone Number" required="">
-							<textarea placeholder="Your Description Here..." required></textarea>
+							<input type="text" name="name" placeholder="Your Name" required="">
+							<input type="email" name="email" placeholder="Your Email" required="">
+							<input type="text" name="phone" placeholder="Phone Number" required="">
+							<textarea id="msg" name="message" placeholder="Your Description Here..." required></textarea>
+							<input type="hidden" name="type" value="Contact Form" />
 						</div>
 						<div class="w3_agileits_contact_right">
 							<input type="submit" value="Submit">
@@ -208,7 +209,36 @@
 			*/
 								
 			$().UItoTop({ easingType: 'easeOutQuart' });
-								
+			
+			
+			$("#contactForm").submit(function(e)
+			{
+			e.preventDefault();
+			var name=$('input[name="name"]').val();
+			var email=$('input[name="email"]').val();
+			var phone=$('input[name="phone"]').val();
+			var msg=$("#msg").val();
+			var data={
+				name:name,
+				email:email,
+				phone:phone,
+				message:msg
+			};
+
+			$.post('mail.php',data,function(d)
+			{
+			if(d==200)
+			{
+				alert('We will get back to you shortly');
+				$("#contactForm").reset();
+			}
+			else
+			{
+			alert('Please try again later.');
+			}
+			});
+			});
+			
 			});
 	</script>
 	<!-- //here ends scrolling icon -->
