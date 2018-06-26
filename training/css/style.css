@@ -1361,13 +1361,13 @@ color: #009688;
 
 /*--Test--*/
 
-.review {
+/*.review {
     background: url('../images/te1.jpg')no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
+}*/
 h4.text {
     background: none;
     font-size: 3em;
@@ -1392,7 +1392,7 @@ h4.text {
 .test-monials h5{
     font-size: 20px;
     text-align: center;
-    color: #fff;
+    color: #333;
     text-transform: none;
     margin-top: 1em;	
 }
@@ -1402,8 +1402,8 @@ h4.text {
     line-height: 2.2em;
     margin: 1em 0;
     padding: 22px 25px;
-    color: #eee;
-	background: rgba(165, 163, 163, 0.32);
+    color: #333;
+	background: rgba(165, 163, 163, 0.1);
 }
 .test-review img{
 	 border-radius: 50%;
