@@ -214,6 +214,15 @@ font-size:2em;
 font-weight:600;
 padding:10px 0;
 }
+
+.slider > .item
+{
+padding:1em;
+}
+.bx-wrapper
+{
+margin:auto;
+}
 </style>
 	<div class="container">
 		
@@ -808,7 +817,11 @@ $(window).load(function(){
                     pager:false,
                     controls:false,
                     captions:true,
-                    auto:true
+                    auto:true,
+					minSlides: 2,
+					maxSlides: 2,
+					moveSlides: 1,
+					slideWidth: 350
                 });
 });
       		</script>

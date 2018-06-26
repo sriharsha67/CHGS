@@ -153,10 +153,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navbar .navbar-brand .logo-img{
-  width: 230px;
-  height: 230px;
-  position: relative;
-  bottom: 230%;
+    width: 230px;
+    height: 230px;
+    position: relative;
+    bottom: 56px;
+    padding: 3em;
 }
 /*.navbar-nav {
     float: left;

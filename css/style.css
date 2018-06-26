@@ -1508,7 +1508,7 @@ address p a:hover {
     letter-spacing: 1px;
 }
 .slider {
-    border: 1px solid #999;
+    border:0;
 }
 ul.rating li {
     display: inline-block;
