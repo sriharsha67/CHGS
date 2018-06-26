@@ -708,3 +708,7 @@ address p a:hover {
 }
 
 /*-- footer --*/
+
+.side_menu .toggler a {
+    color: white;
+}
